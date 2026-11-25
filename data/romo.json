@@ -3,12 +3,105 @@
     {
       "nama": "RP Stefanus Setyo Kumoro Aji, SVD",
       "jabatan": "Pastor Kepala Paroki · Ketua DPP Paroki",
-      "foto": "images/aji.jpg"
+      "foto": "images/aji.jpg",
+      "profil": [
+        {
+          "judul": "Identitas & Panggilan Imamat",
+          "baris": [
+            {
+              "label": "Nama lengkap",
+              "isi": "RP Stefanus Setyo Kumoro Aji, SVD (sempat dipanggil Pater Stefano saat bertugas misi di Brasil)"
+            },
+            {
+              "label": "Tempat, tanggal lahir",
+              "isi": "Jakarta, 11 September 1964"
+            },
+            {
+              "label": "Kaul membiara",
+              "isi": "Kaul Pertama pada 18 Juli 1987 dan Kaul Kekal pada 18 Juli 1992 dalam kongregasi SVD"
+            },
+            {
+              "label": "Tahbisan",
+              "isi": "Diakon pada 17 Februari 1993; Tahbisan Imamat pada 15 Agustus 1993 oleh Mgr. Leo Soekoto, SJ"
+            }
+          ]
+        },
+        {
+          "judul": "Perjalanan Karya Pastoral & Misi",
+          "baris": [
+            {
+              "label": "1990–1991",
+              "isi": "Tahun orientasi pastoral sebagai frater di Paroki Meliau, Keuskupan Sanggau, Kalimantan Barat"
+            },
+            {
+              "label": "1994–1998",
+              "isi": "Misi luar negeri: pastor rekan di Paroki Santa Maria de Fatima, Mato Grosso, Provinsi SVD Brasil Selatan, serta sempat membantu pelayanan di dua paroki di keuskupan lain di Brasil"
+            },
+            {
+              "label": "2012–2019",
+              "isi": "Pastor Kepala Paroki sekaligus Ketua Umum Dewan Paroki di Paroki St. Arnoldus Janssen, Bekasi (Januari 2012 – Februari 2019)"
+            },
+            {
+              "label": "2019–sekarang",
+              "isi": "Sejak 17 Februari 2019 bertugas di Paroki Gembala Yang Baik, Surabaya, mendampingi umat dalam berbagai kegiatan pastoral maupun kategorial"
+            }
+          ]
+        }
+      ]
     },
     {
-      "nama": "RP Yetva Softiming Letsoin",
+      "nama": "RP Yetva Softiming Letsoin, SVD",
       "jabatan": "Romo Paroki",
-      "foto": "images/yetva.jpg"
+      "foto": "images/yetva.jpg",
+      "profil": [
+        {
+          "judul": "Identitas & Panggilan Imamat",
+          "baris": [
+            {
+              "label": "Nama lengkap",
+              "isi": "RP Yetva Softiming Letsoin, SVD"
+            },
+            {
+              "label": "Tanggal lahir",
+              "isi": "12 Agustus"
+            },
+            {
+              "label": "Latar belakang keluarga",
+              "isi": "Anak tunggal dalam keluarganya, yang mantap menjawab panggilan Tuhan menjadi imam misionaris SVD"
+            },
+            {
+              "label": "Tahbisan imamat",
+              "isi": "Jumat, 10 Oktober 2025, di Gereja Katedral Ruteng, Manggarai, NTT, oleh Uskup Ruteng, Mgr. Siprianus Hormat, Pr."
+            },
+            {
+              "label": "Motto tahbisan",
+              "isi": "“Engkau tahu bahwa aku mengasihi Engkau” (Yoh 21:17)"
+            }
+          ]
+        },
+        {
+          "judul": "Pendidikan & Karya Akademik",
+          "baris": [
+            {
+              "label": "Pendidikan",
+              "isi": "Studi filsafat dan teologi di Sekolah Tinggi Filsafat Teologi (STFT) Widya Sasana Malang, termasuk Program Magister Filsafat"
+            },
+            {
+              "label": "Minat dan tulisan",
+              "isi": "Aktif menulis kajian ilmiah di bidang filsafat, budaya, teologi, serta dinamika pastoral dewan paroki"
+            }
+          ]
+        },
+        {
+          "judul": "Tugas Perutusan & Pelayanan",
+          "baris": [
+            {
+              "label": "2026–sekarang",
+              "isi": "Sejak awal 2026 menerima perutusan dari SVD Provinsi Jawa sebagai Pastor Rekan di Paroki Gembala Yang Baik, Keuskupan Surabaya, mendampingi RP Stefanus Setyo Kumoro Aji, SVD dalam pelayanan umat serta pembinaan kaum muda dan komunitas paroki"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

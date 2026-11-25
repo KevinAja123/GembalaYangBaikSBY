@@ -5,7 +5,7 @@
   var SEL=['main .head','main .tentang .pics','main .tentang .wrap>div','main .doa .wrap>*',
     '.next .wrap','.cols>.col','.romo-grid>.rm','.fgrid>article','.adorasi','.tl>li','.prio-h','.prio>li',
     '.grid3>article','.acc>.r','.note','.mcards>*','.mcard','.evlist>.ev','.newsgrid>.news','.empty',
-    '.spirit .wrap>div','.kontak .wrap>div','.sakramen article','.sgrid>*'].join(',');
+    '.spirit .wrap>div','.kwhy>div','.kcat-h','.kontak .wrap>div','.sakramen article','.sgrid>*'].join(',');
   var io=new IntersectionObserver(function(es){
     es.forEach(function(e){if(e.isIntersecting){var x=e.target;x.classList.add('in');io.unobserve(x);setTimeout(function(){x.style.setProperty('--d','0ms')},1100)}});
   },{threshold:.12,rootMargin:'0px 0px -6% 0px'});

@@ -1,0 +1,648 @@
+{
+  "kategori": [
+    {
+      "id": "wahyu",
+      "nama": "Wahyu dan Iman",
+      "deskripsi": "Dari mana kita mengenal Allah",
+      "items": [
+        {
+          "pertanyaan": "Apa itu iman?",
+          "jawaban": "Iman adalah jawaban manusia kepada Allah yang lebih dulu menyatakan diri-Nya. Dengan iman, kita mempercayakan seluruh diri kepada Allah dan menerima apa yang diwahyukan-Nya sebagai benar. Iman adalah anugerah Allah, tetapi juga tindakan bebas manusia.",
+          "kitab_suci": "Ibr 11:1; Rm 10:17",
+          "tradisi": "St. Agustinus: “Aku percaya supaya mengerti, dan aku mengerti supaya percaya lebih baik.”",
+          "magisterium": "KGK 26, 142–143, 150–155"
+        },
+        {
+          "pertanyaan": "Bagaimana Allah menyatakan diri-Nya?",
+          "jawaban": "Allah dapat dikenal lewat ciptaan-Nya, tetapi Ia juga menyatakan diri secara bertahap dalam sejarah: kepada Abraham, Musa, dan para nabi. Puncak dan kepenuhan wahyu adalah Yesus Kristus, Sabda Allah yang menjadi manusia. Sesudah Kristus, tidak ada wahyu umum yang baru.",
+          "kitab_suci": "Ibr 1:1–2; Yoh 1:14, 18; Rm 1:20",
+          "tradisi": "St. Yohanes dari Salib: dalam Putra-Nya, Allah telah mengatakan segala-galanya kepada kita.",
+          "magisterium": "Konsili Vatikan II, Dei Verbum 2–4; KGK 50–67"
+        },
+        {
+          "pertanyaan": "Dari mana kita mengetahui isi iman Katolik?",
+          "jawaban": "Dari satu sumber wahyu yang disampaikan lewat dua jalan, yaitu Kitab Suci dan Tradisi Suci, yang ditafsirkan secara otentik oleh Magisterium (Wewenang Mengajar Gereja). Ketiganya saling terkait dan tidak dapat berdiri sendiri-sendiri.",
+          "kitab_suci": "2 Tes 2:15; 2 Tim 3:16; Mat 28:19–20",
+          "tradisi": "St. Ireneus (abad ke-2): ajaran para rasul terpelihara dalam Gereja melalui pergantian para uskup.",
+          "magisterium": "Dei Verbum 9–10; KGK 80–82, 95"
+        },
+        {
+          "pertanyaan": "Apa itu Kitab Suci?",
+          "jawaban": "Kitab Suci adalah Sabda Allah yang ditulis dengan ilham Roh Kudus. Allah adalah pengarang utamanya, dan Ia memakai para penulis manusia dengan kemampuan mereka sendiri. Alkitab Katolik berisi 73 kitab: 46 Perjanjian Lama dan 27 Perjanjian Baru.",
+          "kitab_suci": "2 Tim 3:16; 2 Ptr 1:20–21",
+          "tradisi": "St. Hieronimus: “Tidak mengenal Kitab Suci berarti tidak mengenal Kristus.” Daftar kitab ditegaskan dalam sinode-sinode abad ke-4 (Roma, Hippo, Kartago).",
+          "magisterium": "Konsili Trente; Dei Verbum 11; KGK 105–107, 120"
+        },
+        {
+          "pertanyaan": "Apa itu Tradisi Suci?",
+          "jawaban": "Tradisi Suci adalah penerusan hidup Injil dari para rasul kepada pengganti-pengganti mereka, lewat pewartaan, teladan, ibadat, dan lembaga Gereja. Tradisi bukan sekadar adat kebiasaan; ia berasal dari para rasul dan meneruskan apa yang mereka terima dari Kristus dan Roh Kudus.",
+          "kitab_suci": "2 Tes 2:15; 1 Kor 11:2; Yoh 21:25",
+          "tradisi": "St. Basilius Agung: Gereja menjaga ajaran yang diterima baik secara tertulis maupun dari tradisi para rasul.",
+          "magisterium": "Dei Verbum 8–9; KGK 75–83"
+        },
+        {
+          "pertanyaan": "Apa itu Magisterium?",
+          "jawaban": "Magisterium adalah Wewenang Mengajar Gereja, yang dijalankan oleh Paus dan para uskup dalam persekutuan dengannya. Tugasnya menafsirkan Sabda Allah secara otentik. Magisterium tidak berada di atas Sabda Allah, melainkan melayaninya.",
+          "kitab_suci": "Mat 16:18–19; Luk 10:16; 1 Tim 3:15",
+          "tradisi": "St. Ignatius dari Antiokhia (± tahun 107): umat hendaknya bersatu dengan uskupnya seperti Gereja dengan Kristus.",
+          "magisterium": "Dei Verbum 10; Lumen Gentium 25; KGK 85–87, 888–892"
+        }
+      ]
+    },
+    {
+      "id": "tritunggal",
+      "nama": "Allah Tritunggal",
+      "deskripsi": "Satu Allah, tiga Pribadi",
+      "items": [
+        {
+          "pertanyaan": "Siapakah Allah?",
+          "jawaban": "Allah itu esa, kekal, mahakuasa, dan pencipta segala sesuatu. Ia menyatakan nama-Nya sebagai “Aku adalah Aku”, dan hakikat-Nya yang terdalam adalah kasih.",
+          "kitab_suci": "Kel 3:14; Ul 6:4; 1 Yoh 4:8",
+          "tradisi": "St. Agustinus: “Engkau menciptakan kami bagi-Mu, dan hati kami gelisah sebelum beristirahat dalam Engkau.”",
+          "magisterium": "KGK 199–221"
+        },
+        {
+          "pertanyaan": "Apa artinya Allah Tritunggal?",
+          "jawaban": "Kita percaya akan satu Allah dalam tiga Pribadi: Bapa, Putra, dan Roh Kudus. Ketiganya sungguh berbeda sebagai Pribadi, tetapi satu hakikat, sama-sama Allah, bukan tiga allah. Inilah misteri pusat iman Kristiani.",
+          "kitab_suci": "Mat 28:19; 2 Kor 13:13; Yoh 14:16–17",
+          "tradisi": "Konsili Nikea (325) dan Konstantinopel I (381) merumuskannya dalam Syahadat.",
+          "magisterium": "KGK 232–234, 253–255"
+        },
+        {
+          "pertanyaan": "Apakah orang Katolik menyembah tiga Allah?",
+          "jawaban": "Tidak. Kita menyembah satu Allah saja. Bapa, Putra, dan Roh Kudus bukan tiga allah, melainkan tiga Pribadi dari satu Allah yang sama. Mereka juga bukan satu pribadi yang berganti-ganti peran, karena ketiganya sungguh berbeda satu dari yang lain.",
+          "kitab_suci": "Ul 6:4; Mat 28:19",
+          "tradisi": "Syahadat Atanasius: Bapa adalah Allah, Putra adalah Allah, Roh Kudus adalah Allah, namun bukan tiga allah, melainkan satu Allah.",
+          "magisterium": "KGK 253–255"
+        },
+        {
+          "pertanyaan": "Bagaimana satu Allah bisa tiga Pribadi?",
+          "jawaban": "Ini adalah misteri iman, kebenaran yang melampaui akal budi meskipun tidak bertentangan dengannya. Hakikat Allah (siapa Allah itu) hanya satu, sedangkan Pribadi-Nya tiga. Ketiganya dibedakan oleh hubungan mereka: Bapa melahirkan Putra, Putra dilahirkan dari Bapa, dan Roh Kudus berasal dari Bapa dan Putra. Perumpamaan seperti matahari dengan cahaya dan panasnya dapat membantu, tetapi selalu terbatas.",
+          "kitab_suci": "Yoh 10:30; 15:26",
+          "tradisi": "Menurut kisah tradisional, St. Agustinus melihat seorang anak hendak memindahkan air laut ke dalam lubang kecil, lalu menyadari bahwa akal manusia tidak akan pernah menampung seluruh misteri Allah.",
+          "magisterium": "KGK 234, 237, 252–256"
+        },
+        {
+          "pertanyaan": "Dari mana kita tahu bahwa Allah itu Tritunggal?",
+          "jawaban": "Bukan dari pemikiran manusia, tetapi karena Allah sendiri menyatakannya, terutama melalui Yesus. Pada pembaptisan Yesus, Bapa bersuara dari surga dan Roh Kudus turun seperti burung merpati. Yesus juga mengutus para murid untuk membaptis “dalam nama Bapa dan Putra dan Roh Kudus”.",
+          "kitab_suci": "Mat 3:16–17; 28:19; Yoh 14:16–17",
+          "tradisi": "Konsili Nikea (325) dan Konstantinopel (381) merumuskan iman ini dalam Syahadat yang kita doakan sampai sekarang.",
+          "magisterium": "KGK 237, 240–248"
+        },
+        {
+          "pertanyaan": "Apa peran masing-masing Pribadi Tritunggal?",
+          "jawaban": "Ketiga Pribadi selalu berkarya bersama, tetapi masing-masing dengan cara yang khas. Penciptaan terutama dikaitkan dengan Bapa, penebusan dengan Putra yang menjadi manusia, dan pengudusan dengan Roh Kudus yang tinggal dalam hati kita.",
+          "kitab_suci": "2Kor 13:13; Ef 1:3–14",
+          "tradisi": "Syahadat Para Rasul tersusun dalam tiga bagian: tentang Allah Bapa dan penciptaan, Allah Putra dan penebusan, serta Allah Roh Kudus dan pengudusan.",
+          "magisterium": "KGK 257–260"
+        },
+        {
+          "pertanyaan": "Mengapa Tritunggal penting bagi hidup kita?",
+          "jawaban": "Karena Tritunggal menunjukkan bahwa Allah adalah kasih: persekutuan Pribadi-pribadi yang saling memberi diri. Tujuan akhir hidup kita adalah masuk ke dalam persekutuan kasih itu. Sejak dibaptis kita sudah menjadi tempat tinggal Allah Tritunggal, dan kita dipanggil untuk mencerminkan kasih-Nya dalam keluarga dan sesama.",
+          "kitab_suci": "1Yoh 4:8; Yoh 14:23; 17:21",
+          "tradisi": "St. Elisabet dari Tritunggal berdoa: “Ya Allahku, Tritunggal yang kusembah, bantulah aku melupakan diriku sepenuhnya supaya aku menetap di dalam-Mu.”",
+          "magisterium": "KGK 221, 260"
+        },
+        {
+          "pertanyaan": "Bagaimana kita menghormati Tritunggal dalam doa?",
+          "jawaban": "Setiap kali membuat Tanda Salib, mendoakan Kemuliaan, atau mengucapkan Syahadat, kita memuliakan Allah Tritunggal. Doa Syukur Agung dalam Misa ditutup dengan pujian kepada Bapa, oleh Kristus, dalam persatuan Roh Kudus. Gereja juga merayakan Hari Raya Tritunggal Mahakudus pada hari Minggu sesudah Pentakosta.",
+          "kitab_suci": "Mat 28:19; Ef 2:18",
+          "tradisi": "Sejak abad-abad awal, orang Kristen memulai doa dan pekerjaan mereka dengan Tanda Salib.",
+          "magisterium": "KGK 249, 2157"
+        }
+      ]
+    },
+    {
+      "id": "bapa",
+      "nama": "Allah Bapa",
+      "deskripsi": "Pencipta langit dan bumi",
+      "items": [
+        {
+          "pertanyaan": "Siapakah Allah Bapa?",
+          "jawaban": "Allah Bapa adalah Pribadi pertama dari Tritunggal Mahakudus. Yesus mewahyukan bahwa Allah adalah Bapa-Nya dalam arti yang unik, dan oleh Dia kita pun boleh menyapa Allah sebagai Bapa kita. Bapa adalah asal segala sesuatu, Pencipta yang mahakuasa, yang mengasihi dan memelihara anak-anak-Nya.",
+          "kitab_suci": "Mat 6:9; Luk 15:11–32; Yoh 20:17",
+          "tradisi": "Syahadat Para Rasul: “Aku percaya akan Allah, Bapa yang mahakuasa, pencipta langit dan bumi.”",
+          "magisterium": "KGK 238–242, 268–271"
+        },
+        {
+          "pertanyaan": "Mengapa Allah disebut mahakuasa?",
+          "jawaban": "Allah dapat melakukan segala sesuatu; bagi-Nya tidak ada yang mustahil. Kuasa-Nya bukan kuasa yang sewenang-wenang, melainkan kuasa seorang Bapa yang penuh kasih, yang paling nyata dalam kerahiman-Nya ketika Ia mengampuni dosa.",
+          "kitab_suci": "Luk 1:37; Mzm 115:3",
+          "tradisi": "Syahadat Para Rasul: “Aku percaya akan Allah, Bapa yang mahakuasa.”",
+          "magisterium": "KGK 268–274"
+        },
+        {
+          "pertanyaan": "Mengapa Allah menciptakan dunia dan manusia?",
+          "jawaban": "Allah menciptakan bukan karena membutuhkan sesuatu, melainkan karena kasih, untuk membagikan kebaikan dan kemuliaan-Nya. Manusia diciptakan menurut gambar Allah, laki-laki dan perempuan, untuk mengenal, mengasihi, dan melayani Dia.",
+          "kitab_suci": "Kej 1:1, 27, 31; Mzm 8",
+          "tradisi": "St. Bonaventura: Allah menciptakan bukan untuk menambah kemuliaan-Nya, melainkan untuk menyatakan dan membagikannya.",
+          "magisterium": "KGK 293–294, 355–358"
+        },
+        {
+          "pertanyaan": "Apa artinya manusia diciptakan menurut gambar Allah?",
+          "jawaban": "Di antara semua ciptaan yang kelihatan, hanya manusia yang mampu mengenal dan mengasihi Penciptanya. Setiap orang memiliki martabat sebagai pribadi, mempunyai jiwa yang tidak dapat mati, dan dipanggil untuk hidup dalam persahabatan dengan Allah. Karena itu setiap hidup manusia patut dihormati.",
+          "kitab_suci": "Kej 1:26–27; Mzm 8:5–6",
+          "tradisi": "St. Katarina dari Siena bertanya kepada Allah mengapa manusia diberi martabat begitu luhur, dan jawabannya adalah kasih yang tak terkatakan.",
+          "magisterium": "KGK 355–361"
+        },
+        {
+          "pertanyaan": "Apa itu penyelenggaraan ilahi?",
+          "jawaban": "Penyelenggaraan ilahi adalah cara Allah memelihara dan membimbing seluruh ciptaan menuju tujuannya dengan bijaksana dan penuh kasih. Tidak ada yang luput dari perhatian-Nya. Allah bahkan dapat mendatangkan kebaikan dari kejahatan yang Ia izinkan, walaupun kita tidak selalu memahaminya sekarang.",
+          "kitab_suci": "Mat 6:26–33; Rm 8:28",
+          "tradisi": "St. Agustinus: Allah yang mahabaik tidak akan membiarkan kejahatan terjadi, seandainya Ia tidak cukup berkuasa dan baik untuk mendatangkan kebaikan darinya.",
+          "magisterium": "KGK 302–314"
+        }
+      ]
+    },
+    {
+      "id": "putra",
+      "nama": "Allah Putra",
+      "deskripsi": "Yesus Kristus, sungguh Allah dan sungguh manusia",
+      "items": [
+        {
+          "pertanyaan": "Siapakah Yesus Kristus?",
+          "jawaban": "Yesus dari Nazaret adalah Putra Allah yang tunggal, Pribadi kedua Tritunggal, yang menjadi manusia. Ia sungguh Allah dan sungguh manusia: satu Pribadi dengan dua kodrat, ilahi dan manusiawi, tanpa tercampur dan tanpa terpisah.",
+          "kitab_suci": "Yoh 1:1, 14; Mat 16:16; Flp 2:6–7",
+          "tradisi": "Konsili Kalsedon (451).",
+          "magisterium": "KGK 464–469"
+        },
+        {
+          "pertanyaan": "Mengapa Putra Allah menjadi manusia?",
+          "jawaban": "Untuk mendamaikan kita dengan Allah dan menyelamatkan kita, supaya kita mengenal kasih Allah, untuk menjadi teladan kekudusan, dan supaya kita mengambil bagian dalam kodrat ilahi.",
+          "kitab_suci": "Yoh 3:16; 1 Yoh 4:9–10; 2 Ptr 1:4",
+          "tradisi": "St. Atanasius: Putra Allah menjadi manusia supaya manusia mengambil bagian dalam hidup Allah.",
+          "magisterium": "KGK 456–460"
+        },
+        {
+          "pertanyaan": "Mengapa Yesus wafat di salib?",
+          "jawaban": "Yesus dengan bebas menyerahkan hidup-Nya sebagai kurban penebusan bagi dosa semua orang. Wafat-Nya adalah tanda kasih yang terbesar dan mendamaikan manusia dengan Allah.",
+          "kitab_suci": "Yes 53:5; Yoh 15:13; 1 Kor 15:3; 1 Ptr 2:24",
+          "tradisi": "Syahadat Nikea-Konstantinopel: Ia “disalibkan untuk kita”.",
+          "magisterium": "KGK 599–618"
+        },
+        {
+          "pertanyaan": "Apa arti kebangkitan Yesus?",
+          "jawaban": "Pada hari ketiga Yesus sungguh bangkit dengan tubuh yang mulia. Kebangkitan adalah kebenaran puncak iman kita: bukti keallahan-Nya, kemenangan atas dosa dan maut, dan jaminan kebangkitan kita kelak.",
+          "kitab_suci": "1 Kor 15:3–8, 14; Luk 24; Yoh 20",
+          "tradisi": "Kesaksian para rasul dan perayaan Paskah sejak Gereja perdana.",
+          "magisterium": "KGK 638–655"
+        },
+        {
+          "pertanyaan": "Apa arti Yesus naik ke surga dan akan datang kembali?",
+          "jawaban": "Empat puluh hari sesudah kebangkitan-Nya, Yesus naik ke surga dengan tubuh-Nya yang mulia dan duduk di sebelah kanan Bapa. Ia mendahului kita ke rumah Bapa dan terus menjadi pengantara kita. Pada akhir zaman Ia akan datang kembali dalam kemuliaan untuk mengadili orang yang hidup dan yang mati, dan Kerajaan-Nya akan disempurnakan.",
+          "kitab_suci": "Kis 1:9–11; Yoh 14:2–3; Ibr 7:25",
+          "tradisi": "Syahadat Para Rasul: “Yang naik ke surga, duduk di sebelah kanan Allah Bapa yang mahakuasa. Dari situ Ia akan datang mengadili orang yang hidup dan yang mati.”",
+          "magisterium": "KGK 659–667, 668–682"
+        }
+      ]
+    },
+    {
+      "id": "rohkudus",
+      "nama": "Allah Roh Kudus",
+      "deskripsi": "Tuhan yang menghidupkan",
+      "items": [
+        {
+          "pertanyaan": "Siapakah Roh Kudus?",
+          "jawaban": "Roh Kudus adalah Pribadi ketiga Tritunggal, sungguh Allah, yang berasal dari Bapa dan Putra. Ia dicurahkan atas Gereja pada hari Pentakosta, menguduskan umat beriman, dan membimbing Gereja kepada seluruh kebenaran.",
+          "kitab_suci": "Yoh 14:16–17, 26; Yoh 16:13; Kis 2:1–4",
+          "tradisi": "Konsili Konstantinopel I (381): Roh Kudus disembah dan dimuliakan bersama Bapa dan Putra.",
+          "magisterium": "KGK 683–688, 731–741"
+        },
+        {
+          "pertanyaan": "Apa yang terjadi pada hari Pentakosta?",
+          "jawaban": "Lima puluh hari sesudah Paskah, Roh Kudus dicurahkan atas para rasul yang berkumpul bersama Maria. Mereka dipenuhi keberanian untuk mewartakan Yesus yang bangkit, dan hari itu banyak orang dibaptis. Sejak saat itu Roh Kudus terus menghidupkan dan membimbing Gereja.",
+          "kitab_suci": "Kis 2:1–41; Yoh 14:26",
+          "tradisi": "Gereja merayakan Hari Raya Pentakosta lima puluh hari sesudah Paskah sebagai penutup Masa Paskah.",
+          "magisterium": "KGK 731–732, 767"
+        },
+        {
+          "pertanyaan": "Apa saja karunia Roh Kudus?",
+          "jawaban": "Ada tujuh karunia Roh Kudus: kebijaksanaan, pengertian, nasihat, keperkasaan, pengenalan, kesalehan, dan takut akan Allah. Karunia ini diterima dalam Pembaptisan dan diteguhkan dalam Krisma, supaya kita mudah mengikuti dorongan Roh Kudus.",
+          "kitab_suci": "Yes 11:1–2; 1Kor 12:4–11",
+          "tradisi": "St. Thomas Aquinas menjelaskan bahwa ketujuh karunia ini menyempurnakan keutamaan dan membuat jiwa peka terhadap bimbingan Roh Kudus.",
+          "magisterium": "KGK 1830–1831"
+        },
+        {
+          "pertanyaan": "Apa saja buah-buah Roh Kudus?",
+          "jawaban": "Buah Roh Kudus adalah kebaikan yang tumbuh dalam diri kita karena karya Roh Kudus. Tradisi Gereja menyebut dua belas: kasih, sukacita, damai, kesabaran, keramahan, kebaikan, kemurahan hati, kelemahlembutan, kesetiaan, kesopanan, penguasaan diri, dan kemurnian.",
+          "kitab_suci": "Gal 5:22–23",
+          "tradisi": "Daftar dua belas buah Roh mengikuti teks Vulgata, terjemahan Latin Kitab Suci yang dipakai Gereja selama berabad-abad.",
+          "magisterium": "KGK 1832"
+        }
+      ]
+    },
+    {
+      "id": "gereja",
+      "nama": "Gereja",
+      "deskripsi": "Umat Allah dan Tubuh Kristus",
+      "items": [
+        {
+          "pertanyaan": "Apa itu Gereja?",
+          "jawaban": "Gereja adalah umat yang dihimpun Allah dari seluruh dunia: Umat Allah, Tubuh Kristus, dan Bait Roh Kudus. Gereja didirikan oleh Kristus sendiri sebagai tanda dan sarana persatuan manusia dengan Allah.",
+          "kitab_suci": "Mat 16:18; 1 Kor 12:27; 1 Tim 3:15",
+          "tradisi": "St. Ignatius dari Antiokhia (± tahun 107) sudah memakai sebutan “Gereja Katolik”.",
+          "magisterium": "Lumen Gentium 1, 8; KGK 751–752, 781–801"
+        },
+        {
+          "pertanyaan": "Apa ciri-ciri Gereja yang sejati?",
+          "jawaban": "Gereja itu satu, kudus, katolik, dan apostolik. Satu dalam iman, sakramen, dan kepemimpinan; kudus karena Kristus menguduskannya; katolik karena diutus kepada semua bangsa; apostolik karena dibangun atas para rasul dan diteruskan oleh pengganti mereka.",
+          "kitab_suci": "Ef 4:4–6; Ef 5:25–27; Mat 28:19; Ef 2:20",
+          "tradisi": "Syahadat Nikea-Konstantinopel.",
+          "magisterium": "KGK 811–870"
+        },
+        {
+          "pertanyaan": "Apa peran Paus dan para uskup?",
+          "jawaban": "Yesus mempercayakan Gereja kepada para rasul dengan Petrus sebagai kepala. Paus, Uskup Roma, adalah pengganti Petrus dan tanda kesatuan Gereja; para uskup adalah pengganti para rasul. Bila Paus menetapkan ajaran iman atau moral secara definitif (ex cathedra), ia dilindungi dari kesalahan.",
+          "kitab_suci": "Mat 16:18–19; Luk 22:32; Yoh 21:15–17",
+          "tradisi": "St. Ireneus menunjuk Gereja Roma, yang didirikan oleh Petrus dan Paulus, sebagai tolok ukur iman para rasul.",
+          "magisterium": "Konsili Vatikan I, Pastor Aeternus; Lumen Gentium 22–25; KGK 880–892"
+        }
+      ]
+    },
+    {
+      "id": "maria",
+      "nama": "Bunda Maria",
+      "deskripsi": "Bunda Allah dan Bunda Gereja",
+      "items": [
+        {
+          "pertanyaan": "Apa yang kita imani tentang Bunda Maria?",
+          "jawaban": "Maria adalah Bunda Allah, tetap perawan, dikandung tanpa noda dosa asal, dan diangkat ke surga dengan jiwa dan badan. Ia juga Bunda Gereja. Umat Katolik menghormati Maria secara istimewa, tetapi penyembahan hanya bagi Allah.",
+          "kitab_suci": "Luk 1:28, 42–43, 48; Yoh 19:26–27",
+          "tradisi": "Konsili Efesus (431) menyatakan Maria sebagai Theotokos, Bunda Allah.",
+          "magisterium": "Pius IX, Ineffabilis Deus (1854); Pius XII, Munificentissimus Deus (1950); KGK 487–511, 963–975"
+        },
+        {
+          "pertanyaan": "Mengapa Maria disebut Bunda Allah?",
+          "jawaban": "Karena Yesus yang dikandung dan dilahirkan Maria adalah satu Pribadi ilahi, Putra Allah yang menjadi manusia. Maria tidak melahirkan keilahian, tetapi ia sungguh ibu dari Pribadi yang adalah Allah. Gelar ini terutama menegaskan siapa Yesus.",
+          "kitab_suci": "Luk 1:35, 43; Gal 4:4",
+          "tradisi": "Konsili Efesus (431) mengakui Maria sebagai Theotokos, “Bunda Allah”.",
+          "magisterium": "KGK 466, 495, 509"
+        },
+        {
+          "pertanyaan": "Apa itu Maria Dikandung Tanpa Noda?",
+          "jawaban": "Sejak saat pertama ia dikandung, Maria dibebaskan dari noda dosa asal berkat jasa Yesus Kristus, Putranya, yang akan datang. Allah mempersiapkan dia secara istimewa untuk menjadi Bunda Sang Penebus. Sepanjang hidupnya Maria juga tidak berbuat dosa.",
+          "kitab_suci": "Luk 1:28; Kej 3:15",
+          "tradisi": "Para Bapa Gereja Timur menyebut Maria “Panagia”, yang seluruhnya kudus. Ajaran ini dinyatakan sebagai dogma oleh Paus Pius IX tahun 1854.",
+          "magisterium": "KGK 490–493"
+        },
+        {
+          "pertanyaan": "Apa artinya Maria tetap perawan?",
+          "jawaban": "Gereja mengimani bahwa Maria mengandung Yesus dari Roh Kudus tanpa campur tangan laki-laki, dan tetap perawan sebelum, selama, dan sesudah kelahiran Yesus. “Saudara-saudara Yesus” yang disebut dalam Injil dipahami sebagai kerabat dekat-Nya.",
+          "kitab_suci": "Yes 7:14; Mat 1:18–25; Luk 1:34–35",
+          "tradisi": "St. Agustinus: Maria tetap perawan ketika mengandung, perawan ketika melahirkan, dan perawan untuk selamanya.",
+          "magisterium": "KGK 496–501, 510"
+        },
+        {
+          "pertanyaan": "Apa itu Maria Diangkat ke Surga?",
+          "jawaban": "Pada akhir hidupnya di dunia, Maria diangkat ke dalam kemuliaan surgawi dengan badan dan jiwanya. Pengangkatannya adalah keikutsertaan istimewa dalam kebangkitan Putranya dan tanda harapan bagi kita semua.",
+          "kitab_suci": "Why 12:1; 1Kor 15:20–23",
+          "tradisi": "Gereja Timur sejak abad-abad awal merayakan Tertidurnya Bunda Maria (Dormitio). Paus Pius XII menyatakannya sebagai dogma tahun 1950.",
+          "magisterium": "KGK 966, 974"
+        }
+      ]
+    },
+    {
+      "id": "kudus",
+      "nama": "Para Kudus Allah",
+      "deskripsi": "Para kudus dan para malaikat",
+      "items": [
+        {
+          "pertanyaan": "Siapakah orang kudus?",
+          "jawaban": "Orang kudus adalah mereka yang telah hidup dalam kasih Allah dan kini bersama Dia di surga. Jumlahnya tak terhitung; sebagian dinyatakan resmi oleh Gereja sebagai santo atau santa supaya menjadi teladan dan pendoa bagi kita. Semua orang beriman dipanggil menjadi kudus.",
+          "kitab_suci": "Why 7:9; Ibr 12:1; Mat 5:48",
+          "tradisi": "Sejak abad-abad pertama, umat beriman berkumpul di makam para martir untuk berdoa dan mengenang kesaksian mereka.",
+          "magisterium": "KGK 828, 956–957; LG 40"
+        },
+        {
+          "pertanyaan": "Apa itu persekutuan para kudus?",
+          "jawaban": "Persekutuan para kudus adalah kesatuan semua anggota Gereja dalam Kristus: yang masih berziarah di dunia, yang sedang dimurnikan di api penyucian, dan yang sudah mulia di surga. Kita saling mendoakan dan berbagi harta rohani dalam satu Tubuh Kristus.",
+          "kitab_suci": "1Kor 12:26–27; Rm 12:4–5",
+          "tradisi": "Syahadat Para Rasul: “Aku percaya akan … persekutuan para kudus.”",
+          "magisterium": "KGK 946–962"
+        },
+        {
+          "pertanyaan": "Siapakah para malaikat?",
+          "jawaban": "Malaikat adalah makhluk rohani tanpa badan, yang diciptakan Allah, berakal budi, dan berkehendak bebas. Mereka memuliakan Allah dan melayani rencana keselamatan-Nya. Setiap orang beriman didampingi seorang malaikat pelindung.",
+          "kitab_suci": "Mzm 103:20; Mat 18:10; Ibr 1:14",
+          "tradisi": "St. Agustinus: kata “malaikat” menunjuk pada tugas mereka, bukan kodrat mereka; menurut kodratnya mereka adalah roh.",
+          "magisterium": "KGK 328–336"
+        },
+        {
+          "pertanyaan": "Mengapa kita memohon doa para kudus dan memakai gambar kudus?",
+          "jawaban": "Semua orang beriman, di bumi, di api penyucian, dan di surga, bersatu dalam persekutuan para kudus. Kita meminta para kudus mendoakan kita, seperti kita meminta doa dari sesama. Gambar dan patung kudus tidak disembah; penghormatan ditujukan kepada pribadi yang digambarkan.",
+          "kitab_suci": "Why 5:8; Ibr 12:1; Yak 5:16",
+          "tradisi": "Konsili Nikea II (787) meneguhkan penghormatan kepada gambar kudus.",
+          "magisterium": "KGK 946–962, 2129–2132"
+        },
+        {
+          "pertanyaan": "Bagaimana seseorang dinyatakan sebagai santo?",
+          "jawaban": "Melalui proses kanonisasi. Gereja menyelidiki hidup, keutamaan, dan tulisan seseorang, lalu ia dapat disebut Hamba Allah, Venerabilis, kemudian Beato, dan akhirnya Santo. Biasanya diperlukan mukjizat yang terjadi berkat doanya. Paus yang menyatakan kanonisasi secara resmi.",
+          "kitab_suci": "Mat 5:14–16; Ibr 13:7",
+          "tradisi": "Kanonisasi resmi pertama yang tercatat adalah Santo Ulrikus dari Augsburg oleh Paus Yohanes XV tahun 993.",
+          "magisterium": "KGK 828"
+        }
+      ]
+    },
+    {
+      "id": "sakramen",
+      "nama": "Tujuh Sakramen",
+      "deskripsi": "Tanda yang menghadirkan rahmat",
+      "items": [
+        {
+          "pertanyaan": "Apa itu sakramen?",
+          "jawaban": "Sakramen adalah tanda yang kelihatan dan berdaya guna, ditetapkan oleh Kristus dan dipercayakan kepada Gereja, yang menyalurkan rahmat Allah. Ada tujuh: Baptis, Krisma, Ekaristi, Tobat, Pengurapan Orang Sakit, Imamat, dan Perkawinan.",
+          "kitab_suci": "Yoh 3:5; Yoh 20:22–23; Luk 22:19",
+          "tradisi": "St. Agustinus menyebut sakramen sebagai tanda kelihatan dari rahmat yang tak kelihatan.",
+          "magisterium": "Konsili Trente; KGK 1113–1131, 1210"
+        },
+        {
+          "pertanyaan": "Apa itu Sakramen Baptis?",
+          "jawaban": "Baptis adalah pintu masuk kehidupan Kristiani. Lewat air dan rumusan Tritunggal, kita dibebaskan dari dosa asal dan semua dosa pribadi, dilahirkan kembali sebagai anak Allah, dan dijadikan anggota Gereja. Gereja juga membaptis bayi sejak zaman dahulu.",
+          "kitab_suci": "Mat 28:19; Yoh 3:5; Rm 6:3–4",
+          "tradisi": "Didakhe (abad ke-1) sudah memuat tata cara pembaptisan dalam nama Bapa, Putra, dan Roh Kudus.",
+          "magisterium": "KGK 1213–1284"
+        },
+        {
+          "pertanyaan": "Apa itu Sakramen Krisma?",
+          "jawaban": "Krisma (Penguatan) menyempurnakan rahmat Baptis. Dengan pengurapan minyak krisma dan penumpangan tangan, kita menerima kepenuhan Roh Kudus dan diteguhkan untuk menjadi saksi Kristus.",
+          "kitab_suci": "Kis 8:14–17; Kis 2:1–4",
+          "tradisi": "St. Sirilus dari Yerusalem (abad ke-4) menjelaskan pengurapan sesudah baptis dalam katekesenya.",
+          "magisterium": "KGK 1285–1321"
+        },
+        {
+          "pertanyaan": "Apa itu Ekaristi?",
+          "jawaban": "Ekaristi adalah sumber dan puncak hidup Kristiani. Dalam Misa, kurban salib Kristus dihadirkan, dan roti serta anggur sungguh berubah menjadi Tubuh dan Darah Kristus (transubstansiasi). Kristus hadir secara nyata, sungguh, dan utuh.",
+          "kitab_suci": "Yoh 6:51–56; Luk 22:19–20; 1 Kor 11:23–29",
+          "tradisi": "St. Yustinus Martir (± tahun 155) menggambarkan Misa dan iman akan Tubuh dan Darah Kristus; demikian juga St. Ignatius dari Antiokhia.",
+          "magisterium": "Konsili Trente; KGK 1322–1327, 1373–1377"
+        },
+        {
+          "pertanyaan": "Apa itu Sakramen Tobat?",
+          "jawaban": "Dalam Sakramen Tobat (Pengakuan Dosa), dosa yang dilakukan sesudah Baptis diampuni oleh Allah melalui absolusi imam, dan kita didamaikan kembali dengan Allah dan Gereja. Dosa berat wajib diakukan.",
+          "kitab_suci": "Yoh 20:22–23; Luk 15:11–32; 2 Kor 5:18",
+          "tradisi": "St. Ambrosius membela kuasa Gereja untuk mengampuni dosa.",
+          "magisterium": "Konsili Trente; KGK 1422–1470"
+        },
+        {
+          "pertanyaan": "Apa itu Pengurapan Orang Sakit?",
+          "jawaban": "Sakramen ini diberikan kepada orang yang sakit berat atau lanjut usia. Lewat pengurapan minyak dan doa imam, orang sakit menerima kekuatan, penghiburan, pengampunan dosa, dan kadang kesembuhan bila berguna bagi keselamatannya.",
+          "kitab_suci": "Yak 5:14–15; Mrk 6:13",
+          "tradisi": "Surat Paus Innosensius I (tahun 416) sudah menyebut pengurapan ini.",
+          "magisterium": "KGK 1499–1532"
+        },
+        {
+          "pertanyaan": "Apa itu Sakramen Imamat dan Perkawinan?",
+          "jawaban": "Keduanya adalah sakramen pelayanan. Imamat meneruskan perutusan para rasul dalam tiga tingkat: uskup, imam, dan diakon. Perkawinan menyatukan seorang laki-laki dan seorang perempuan dalam perjanjian seumur hidup yang setia, tak terceraikan, dan terbuka bagi kehidupan.",
+          "kitab_suci": "Luk 22:19; 1 Tim 4:14; Mat 19:4–6; Ef 5:31–32",
+          "tradisi": "St. Ignatius dari Antiokhia menyebut uskup, imam, dan diakon dalam setiap Gereja.",
+          "magisterium": "KGK 1536–1600, 1601–1666"
+        }
+      ]
+    },
+    {
+      "id": "misa",
+      "nama": "Misa",
+      "deskripsi": "Perayaan Ekaristi, sumber dan puncak hidup Kristiani",
+      "items": [
+        {
+          "pertanyaan": "Apa itu Misa?",
+          "jawaban": "Misa adalah perayaan Ekaristi. Di dalamnya kurban Kristus di salib dihadirkan kembali secara sakramental, dan kita menyambut Tubuh dan Darah-Nya sebagai santapan. Misa sekaligus kurban, kenangan, dan perjamuan kudus, tempat Gereja bersyukur dan bersatu dengan Kristus.",
+          "kitab_suci": "Luk 22:19–20; 1Kor 11:23–26",
+          "tradisi": "St. Yustinus Martir (sekitar tahun 155) sudah menggambarkan umat yang berkumpul setiap hari Minggu untuk mendengarkan Kitab Suci dan merayakan Ekaristi.",
+          "magisterium": "KGK 1322–1324, 1365–1367"
+        },
+        {
+          "pertanyaan": "Apa saja bagian-bagian Misa?",
+          "jawaban": "Misa terdiri dari empat bagian: Ritus Pembuka; Liturgi Sabda, saat kita mendengarkan bacaan dan homili; Liturgi Ekaristi, saat roti dan anggur dipersembahkan dan dikonsekrasi lalu dibagikan dalam Komuni; dan Ritus Penutup, saat kita diberkati dan diutus.",
+          "kitab_suci": "Luk 24:13–35",
+          "tradisi": "Susunan dasar ini sudah tampak dalam kesaksian St. Yustinus Martir pada abad kedua.",
+          "magisterium": "KGK 1346–1347"
+        },
+        {
+          "pertanyaan": "Mengapa kita wajib mengikuti Misa hari Minggu?",
+          "jawaban": "Hari Minggu adalah hari kebangkitan Tuhan. Gereja mewajibkan umat mengikuti Misa pada hari Minggu dan hari raya wajib untuk menguduskan hari Tuhan, bersyukur kepada Allah, dan bersatu sebagai umat-Nya. Tanpa alasan yang berat, melalaikannya adalah dosa berat.",
+          "kitab_suci": "Kel 20:8; Kis 20:7; Ibr 10:25",
+          "tradisi": "Para martir Abitina (tahun 304) berkata: “Tanpa hari Tuhan, kami tidak dapat hidup.”",
+          "magisterium": "KGK 2180–2183; KHK kan. 1247"
+        },
+        {
+          "pertanyaan": "Bagaimana mempersiapkan diri untuk menyambut Komuni?",
+          "jawaban": "Kita menyambut Komuni dalam keadaan rahmat; jika sadar berbuat dosa berat, kita perlu mengaku dosa lebih dulu. Kita berpuasa sekurang-kurangnya satu jam sebelum Komuni (kecuali air dan obat), dan menyambut dengan iman, hormat, dan sikap doa.",
+          "kitab_suci": "1Kor 11:27–29; Mat 8:8",
+          "tradisi": "Sebelum Komuni, umat berdoa dengan kata-kata seorang perwira: “Ya Tuhan, saya tidak pantas Engkau datang pada saya, tetapi bersabdalah saja, maka saya akan sembuh.”",
+          "magisterium": "KGK 1385–1387; KHK kan. 916, 919"
+        },
+        {
+          "pertanyaan": "Apa itu tahun liturgi?",
+          "jawaban": "Sepanjang tahun Gereja merayakan seluruh misteri Kristus: Masa Adven, Masa Natal, Masa Prapaskah, Trihari Suci dan Masa Paskah, serta Masa Biasa. Warna liturgi seperti ungu, putih, merah, dan hijau membantu kita mengikuti masa-masa ini.",
+          "kitab_suci": "Mzm 118:24; Kol 3:16",
+          "tradisi": "Paskah adalah pesta segala pesta; setiap hari Minggu disebut “Paskah mingguan”.",
+          "magisterium": "KGK 1163–1173"
+        }
+      ]
+    },
+    {
+      "id": "konsili",
+      "nama": "Konsili-konsili",
+      "deskripsi": "Para uskup bersama Paus menjaga iman",
+      "items": [
+        {
+          "pertanyaan": "Apa itu konsili ekumenis?",
+          "jawaban": "Konsili ekumenis adalah pertemuan para uskup dari seluruh dunia bersama dan di bawah Paus untuk memutuskan soal iman, moral, dan tata Gereja. Sepanjang sejarah ada 21 konsili ekumenis, dari Nikea (325) sampai Vatikan II (1962–1965).",
+          "kitab_suci": "Kis 15:1–29",
+          "tradisi": "Konsili Yerusalem dalam Kisah Para Rasul menjadi teladan bagaimana para rasul memutuskan perkara bersama di bawah bimbingan Roh Kudus.",
+          "magisterium": "KGK 884, 891"
+        },
+        {
+          "pertanyaan": "Apa yang diajarkan Konsili Nikea dan Konstantinopel?",
+          "jawaban": "Konsili Nikea (325) menolak ajaran Arius dan menegaskan bahwa Putra sehakikat dengan Bapa, sungguh Allah. Konsili Konstantinopel I (381) menegaskan keilahian Roh Kudus. Dari kedua konsili ini lahir Syahadat Nikea-Konstantinopel yang kita doakan dalam Misa.",
+          "kitab_suci": "Yoh 1:1; 10:30; 15:26",
+          "tradisi": "Syahadat: “Allah dari Allah, Terang dari Terang… sehakikat dengan Bapa.”",
+          "magisterium": "KGK 242, 245, 465"
+        },
+        {
+          "pertanyaan": "Apa yang diajarkan Konsili Efesus dan Kalsedon?",
+          "jawaban": "Konsili Efesus (431) menegaskan bahwa Maria adalah Bunda Allah, karena Yesus adalah satu Pribadi ilahi. Konsili Kalsedon (451) mengajarkan bahwa Yesus adalah satu Pribadi dengan dua kodrat, ilahi dan manusiawi, tanpa tercampur dan tanpa terpisah.",
+          "kitab_suci": "Luk 1:43; Flp 2:6–7",
+          "tradisi": "Paus Leo Agung mengirim surat (Tome) yang diterima para uskup di Kalsedon dengan seruan: “Petrus telah berbicara melalui Leo.”",
+          "magisterium": "KGK 466–467"
+        },
+        {
+          "pertanyaan": "Apa yang diputuskan Konsili Trente?",
+          "jawaban": "Konsili Trente (1545–1563) menjawab Reformasi Protestan. Konsili ini menegaskan daftar kitab Kitab Suci, ketujuh sakramen, ajaran tentang pembenaran, dan kehadiran nyata Kristus dalam Ekaristi (transubstansiasi). Trente juga mendirikan seminari dan melahirkan Katekismus Roma.",
+          "kitab_suci": "2Tes 2:15; Yoh 6:53–56",
+          "tradisi": "Untuk meneruskan ajarannya, Konsili Trente menugaskan penyusunan Katekismus Roma (1566) bagi para pastor.",
+          "magisterium": "KGK 120, 1113–1114, 1376"
+        },
+        {
+          "pertanyaan": "Apa yang diajarkan Konsili Vatikan I?",
+          "jawaban": "Konsili Vatikan I (1869–1870) mengajarkan bahwa Allah dapat dikenal dengan akal budi dan bahwa iman tidak bertentangan dengan akal. Konsili ini juga menegaskan primat Paus dan ajaran infalibilitas: Paus tidak dapat sesat ketika secara resmi (ex cathedra) menetapkan ajaran iman dan moral.",
+          "kitab_suci": "Mat 16:18–19; Luk 22:32",
+          "tradisi": "Konsili ini menetapkan dua konstitusi dogmatis: Dei Filius tentang iman dan akal budi, serta Pastor Aeternus tentang Paus.",
+          "magisterium": "KGK 36, 159, 891"
+        },
+        {
+          "pertanyaan": "Apa yang diajarkan Konsili Vatikan II?",
+          "jawaban": "Konsili Vatikan II (1962–1965), dibuka oleh Paus Yohanes XXIII dan ditutup oleh Paus Paulus VI, menghasilkan 16 dokumen. Empat konstitusinya membahas liturgi (Sacrosanctum Concilium), Gereja (Lumen Gentium), wahyu (Dei Verbum), dan Gereja di dunia modern (Gaudium et Spes). Konsili ini menegaskan panggilan semua orang beriman kepada kekudusan.",
+          "kitab_suci": "Mat 5:48; 1Tes 4:3",
+          "tradisi": "Lumen Gentium 40: semua orang beriman, apa pun status hidupnya, dipanggil kepada kepenuhan hidup Kristiani dan kesempurnaan kasih.",
+          "magisterium": "KGK 2013; LG 40"
+        }
+      ]
+    },
+    {
+      "id": "moral",
+      "nama": "Hidup dalam Kristus",
+      "deskripsi": "Perintah Allah dan perintah Gereja",
+      "items": [
+        {
+          "pertanyaan": "Bagaimana seharusnya orang Katolik hidup?",
+          "jawaban": "Yesus merangkum seluruh hukum dalam kasih kepada Allah dan sesama. Sepuluh Perintah Allah menunjukkan jalan hidup itu, dan Sabda Bahagia menggambarkan wajah murid Kristus.",
+          "kitab_suci": "Mat 22:37–40; Kel 20:1–17; Mat 5:3–12",
+          "tradisi": "St. Agustinus: “Cintailah, dan lakukanlah apa yang kaukehendaki.”",
+          "magisterium": "KGK 1716–1717, 2052–2055"
+        },
+        {
+          "pertanyaan": "Bagaimana kita diselamatkan?",
+          "jawaban": "Kita diselamatkan oleh rahmat Allah, berkat wafat dan kebangkitan Kristus, bukan karena jasa kita sendiri. Rahmat itu kita terima dengan iman, dan iman yang hidup berbuah dalam kasih dan perbuatan baik.",
+          "kitab_suci": "Ef 2:8–10; Gal 5:6; Yak 2:24",
+          "tradisi": "Konsili Orange II (529): awal iman pun adalah anugerah rahmat.",
+          "magisterium": "Konsili Trente; KGK 1987–2011"
+        },
+        {
+          "pertanyaan": "Apa saja Sepuluh Perintah Allah?",
+          "jawaban": "1. Jangan menyembah allah lain. 2. Jangan menyebut nama Tuhan Allahmu dengan tidak hormat. 3. Kuduskanlah hari Tuhan. 4. Hormatilah ibu bapamu. 5. Jangan membunuh. 6. Jangan berzina. 7. Jangan mencuri. 8. Jangan bersaksi dusta. 9. Jangan menginginkan istri sesamamu. 10. Jangan menginginkan milik sesamamu. Yesus meringkas semuanya dalam perintah mengasihi Allah dan sesama.",
+          "kitab_suci": "Kel 20:1–17; Ul 5:6–21; Mat 22:37–40",
+          "tradisi": "Pembagian Sepuluh Perintah yang dipakai Gereja Katolik mengikuti St. Agustinus.",
+          "magisterium": "KGK 2052–2082"
+        },
+        {
+          "pertanyaan": "Apa saja lima perintah Gereja?",
+          "jawaban": "Merayakan hari raya yang disamakan dengan hari Minggu; mengikuti Misa pada hari Minggu dan hari raya wajib; berpuasa dan berpantang pada hari yang ditentukan; mengaku dosa sekurang-kurangnya sekali setahun; dan menyambut Komuni pada Masa Paskah.",
+          "kitab_suci": "Kel 20:8; Ibr 10:25; Kis 2:42",
+          "tradisi": "Didakhe: umat berkumpul pada Hari Tuhan untuk memecah roti.",
+          "magisterium": "KGK 2041–2043, 2180–2181"
+        }
+      ]
+    },
+    {
+      "id": "dosa",
+      "nama": "Dosa dan Tujuh Dosa Pokok",
+      "deskripsi": "Mengenali dosa dan melawannya dengan keutamaan",
+      "items": [
+        {
+          "pertanyaan": "Apa itu dosa?",
+          "jawaban": "Dosa adalah pelanggaran terhadap Allah: pikiran, perkataan, perbuatan, atau kelalaian yang melawan hukum-Nya. Dosa berat menyangkut perkara berat, dilakukan dengan tahu dan mau, dan memutuskan hubungan dengan Allah. Dosa ringan melukai, tetapi tidak memutuskan hubungan itu.",
+          "kitab_suci": "1 Yoh 1:8–9; 1 Yoh 5:16–17",
+          "tradisi": "St. Agustinus: dosa adalah perkataan, perbuatan, atau keinginan yang melawan hukum abadi.",
+          "magisterium": "KGK 1849–1864"
+        },
+        {
+          "pertanyaan": "Apa itu dosa asal?",
+          "jawaban": "Manusia pertama, karena godaan si jahat, menyalahgunakan kebebasan dan tidak taat kepada Allah. Akibatnya, kodrat manusia terluka: kehilangan kekudusan asali, cenderung kepada dosa, dan takluk kepada maut. Keadaan ini diwariskan kepada semua manusia, dan dihapus oleh Pembaptisan.",
+          "kitab_suci": "Kej 3; Rm 5:12, 19",
+          "tradisi": "St. Agustinus; Konsili Orange II (529).",
+          "magisterium": "Konsili Trente; KGK 396–409"
+        },
+        {
+          "pertanyaan": "Apa bedanya dosa berat dan dosa ringan?",
+          "jawaban": "Dosa berat terjadi bila pokok perkaranya berat, dilakukan dengan sadar sepenuhnya, dan dengan persetujuan bebas. Dosa berat memutuskan hubungan kasih dengan Allah dan perlu diakukan dalam Sakramen Tobat sebelum menyambut Komuni. Dosa ringan melemahkan kasih tetapi tidak memutuskannya; dosa ringan pun baik diakukan.",
+          "kitab_suci": "1Yoh 5:16–17; Mat 5:19",
+          "tradisi": "Gereja menganjurkan pengakuan dosa ringan secara teratur sebagai sarana untuk bertumbuh dalam kekudusan.",
+          "magisterium": "KGK 1854–1863, 1458"
+        },
+        {
+          "pertanyaan": "Apa itu tujuh dosa pokok?",
+          "jawaban": "Tujuh dosa pokok adalah kesombongan, ketamakan, iri hati, kemarahan, percabulan (hawa nafsu), kerakusan, dan kemalasan rohani. Disebut “pokok” karena menjadi akar yang melahirkan dosa-dosa lain. Setiap dosa pokok dilawan dengan keutamaan yang berlawanan.",
+          "kitab_suci": "Gal 5:19–23; Mrk 7:21–23",
+          "tradisi": "St. Yohanes Kasianus dan St. Gregorius Agung menyusun daftar dosa pokok yang diwariskan dalam Tradisi Gereja.",
+          "magisterium": "KGK 1866"
+        },
+        {
+          "pertanyaan": "Kesombongan: apa itu dan bagaimana melawannya?",
+          "jawaban": "Kesombongan adalah menganggap diri lebih tinggi dari yang sebenarnya dan menolak bergantung pada Allah. Ia dianggap akar segala dosa. Lawannya adalah kerendahan hati: mengakui bahwa segala yang baik berasal dari Allah dan melayani sesama tanpa mencari pujian.",
+          "kitab_suci": "Ams 16:18; Luk 18:9–14; Yak 4:6",
+          "tradisi": "St. Agustinus mengajarkan bahwa kesombonganlah yang mengubah malaikat menjadi setan, sedangkan kerendahan hati menjadikan manusia serupa malaikat.",
+          "magisterium": "KGK 1866, 2094, 2559"
+        },
+        {
+          "pertanyaan": "Ketamakan: apa itu dan bagaimana melawannya?",
+          "jawaban": "Ketamakan adalah keinginan yang tidak teratur akan harta dan kekayaan, sampai menjadikannya tujuan hidup. Lawannya adalah kemurahan hati: memakai harta dengan bijak, bersyukur, dan berbagi dengan orang yang membutuhkan.",
+          "kitab_suci": "Luk 12:15–21; 1Tim 6:10",
+          "tradisi": "St. Yohanes Krisostomus: tidak membagikan harta kepada orang miskin sama dengan mencuri dari mereka.",
+          "magisterium": "KGK 2536, 2445–2446"
+        },
+        {
+          "pertanyaan": "Iri hati: apa itu dan bagaimana melawannya?",
+          "jawaban": "Iri hati adalah rasa sedih melihat kebaikan atau keberhasilan orang lain, bahkan menginginkan orang itu kehilangannya. Lawannya adalah kasih dan kebaikan hati: ikut bersukacita atas anugerah yang diterima sesama.",
+          "kitab_suci": "Kej 4:3–8; Keb 2:24; Rm 12:15",
+          "tradisi": "St. Agustinus menyebut iri hati sebagai “dosa setan”.",
+          "magisterium": "KGK 2538–2540"
+        },
+        {
+          "pertanyaan": "Kemarahan: apa itu dan bagaimana melawannya?",
+          "jawaban": "Kemarahan menjadi dosa bila berubah menjadi keinginan membalas dendam atau mencelakai orang lain. Lawannya adalah kesabaran dan kelemahlembutan: menguasai diri, mengampuni, dan memperjuangkan keadilan tanpa kebencian.",
+          "kitab_suci": "Mat 5:22; Ef 4:26; Yak 1:19–20",
+          "tradisi": "St. Thomas Aquinas membedakan kemarahan yang wajar demi keadilan dari kemarahan yang tidak teratur dan menjadi dosa.",
+          "magisterium": "KGK 2302–2303"
+        },
+        {
+          "pertanyaan": "Percabulan (hawa nafsu): apa itu dan bagaimana melawannya?",
+          "jawaban": "Hawa nafsu adalah keinginan yang tidak teratur akan kenikmatan seksual, terlepas dari kasih dan tujuan perkawinan. Lawannya adalah kemurnian: keutamaan yang menyatukan seksualitas dengan kasih sejati, sesuai dengan status hidup masing-masing.",
+          "kitab_suci": "Mat 5:27–28; 1Kor 6:18–20",
+          "tradisi": "St. Yohanes Paulus II dalam Teologi Tubuh mengajarkan bahwa tubuh manusia diciptakan untuk menjadi pemberian diri dalam kasih.",
+          "magisterium": "KGK 2337–2345, 2351"
+        },
+        {
+          "pertanyaan": "Kerakusan: apa itu dan bagaimana melawannya?",
+          "jawaban": "Kerakusan adalah sikap berlebihan dalam makan dan minum, termasuk mabuk-mabukan. Lawannya adalah keugaharian atau pengendalian diri, yang dilatih antara lain melalui puasa dan pantang.",
+          "kitab_suci": "Ams 23:20–21; Flp 3:19",
+          "tradisi": "Gereja menetapkan puasa dan pantang pada Rabu Abu dan Jumat Agung, serta pantang pada hari Jumat, sebagai latihan pengendalian diri.",
+          "magisterium": "KGK 1809, 2290"
+        },
+        {
+          "pertanyaan": "Kemalasan rohani: apa itu dan bagaimana melawannya?",
+          "jawaban": "Kemalasan rohani (acedia) adalah rasa enggan dan bosan terhadap hal-hal rohani, sampai mengabaikan doa dan kewajiban terhadap Allah. Lawannya adalah ketekunan dan semangat: setia berdoa dan bekerja dengan baik meskipun tidak sedang bersemangat.",
+          "kitab_suci": "Ams 6:6–11; Why 3:15–16",
+          "tradisi": "Para Bapa padang gurun menyebut kemalasan rohani sebagai “setan tengah hari” (bdk. Mzm 91:6).",
+          "magisterium": "KGK 1866, 2094, 2733"
+        }
+      ]
+    },
+    {
+      "id": "akhir",
+      "nama": "Doa dan Hidup Kekal",
+      "deskripsi": "Harapan orang beriman",
+      "items": [
+        {
+          "pertanyaan": "Apa itu doa?",
+          "jawaban": "Doa adalah mengangkat hati dan budi kepada Allah: memuji, bersyukur, memohon ampun, dan meminta. Yesus sendiri mengajarkan doa Bapa Kami, ringkasan seluruh Injil.",
+          "kitab_suci": "Mat 6:9–13; Luk 11:1; 1 Tes 5:17",
+          "tradisi": "St. Yohanes dari Damaskus: doa adalah pengangkatan jiwa kepada Allah.",
+          "magisterium": "KGK 2558–2565, 2759–2761"
+        },
+        {
+          "pertanyaan": "Apa yang terjadi sesudah kematian?",
+          "jawaban": "Sesudah mati, setiap orang langsung diadili secara pribadi oleh Kristus dan menerima ganjarannya: surga (langsung atau setelah penyucian), atau neraka bagi yang dengan bebas menolak Allah sampai akhir.",
+          "kitab_suci": "Ibr 9:27; Luk 23:43; Mat 25:46",
+          "tradisi": "St. Yohanes dari Salib: pada senja hidup, kita akan diadili menurut kasih.",
+          "magisterium": "Benediktus XII, Benedictus Deus (1336); KGK 1021–1037"
+        },
+        {
+          "pertanyaan": "Apa itu api penyucian?",
+          "jawaban": "Api penyucian adalah pemurnian bagi mereka yang wafat dalam rahmat Allah tetapi belum sepenuhnya suci. Mereka pasti selamat. Kita dapat menolong mereka dengan doa, Misa, amal, dan indulgensi.",
+          "kitab_suci": "2 Mak 12:45; 1 Kor 3:15",
+          "tradisi": "Doa bagi arwah sudah dilakukan sejak Gereja perdana; St. Gregorius Agung mengajarkan adanya api pemurnian.",
+          "magisterium": "Konsili Florence dan Trente; KGK 1030–1032"
+        },
+        {
+          "pertanyaan": "Apa yang kita harapkan pada akhir zaman?",
+          "jawaban": "Kristus akan datang kembali dalam kemuliaan. Semua orang mati akan bangkit dengan tubuhnya, lalu terjadi Pengadilan Terakhir. Allah akan membarui segala sesuatu: langit baru dan bumi baru.",
+          "kitab_suci": "Mat 25:31–46; 1 Kor 15:51–53; Why 21:1–4",
+          "tradisi": "Syahadat: “Aku menantikan kebangkitan orang mati dan hidup di akhirat.”",
+          "magisterium": "KGK 988–1004, 1038–1050"
+        }
+      ]
+    }
+  ]
+}

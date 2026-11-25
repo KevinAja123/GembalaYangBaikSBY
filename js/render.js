@@ -36,15 +36,41 @@
     });
   });
 
-  // romo
+  // romo (klik untuk melihat profil)
   use('romo',function(d){
     var box=$('romoGrid');if(!box)return;box.textContent='';
     d.items.forEach(function(r){
       var f=el('figure','rm');f.appendChild(img(r.foto,r.nama));
       var c=el('figcaption');c.appendChild(el('b',null,r.nama));c.appendChild(el('span',null,r.jabatan));
+      if(r.profil&&r.profil.length){
+        c.appendChild(el('em','more','Lihat profil'));
+        f.tabIndex=0;f.setAttribute('role','button');f.setAttribute('aria-label','Lihat profil '+r.nama);
+        f.addEventListener('click',function(){openProfil(r)});
+        f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();openProfil(r)}});
+      }
       f.appendChild(c);box.appendChild(f);
     });
   });
+  function openProfil(r){
+    var dlg=$('profil');if(!dlg)return;
+    var p=$('pfBody');p.textContent='';
+    var im=$('pfImg');im.src=imgSrc(r.foto);im.alt=r.nama;
+    $('pfName').textContent=r.nama;$('pfRole').textContent=r.jabatan;
+    (r.profil||[]).forEach(function(s){
+      var sec=el('section','pfsec');sec.appendChild(el('h4',null,s.judul));
+      var dl=el('dl');
+      (s.baris||[]).forEach(function(b){dl.appendChild(el('dt',null,b.label));dl.appendChild(el('dd',null,b.isi))});
+      sec.appendChild(dl);p.appendChild(sec);
+    });
+    dlg.showModal();document.body.style.overflow='hidden';dlg.scrollTop=0;
+  }
+  (function(){
+    var dlg=$('profil');if(!dlg)return;
+    function close(){dlg.close()}
+    dlg.addEventListener('close',function(){document.body.style.overflow=''});
+    $('pfClose').addEventListener('click',close);
+    dlg.addEventListener('click',function(e){if(e.target===dlg)close()});
+  })();
 
   // fasilitas
   use('fasilitas',function(d){

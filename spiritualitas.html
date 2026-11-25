@@ -58,7 +58,8 @@
   <div class="wrap">
     <p class="crumb"><a href="index.html">Beranda</a> <span>/</span> Spiritualitas</p>
     <h1>Spiritualitas</h1>
-    <p class="pdesc">Mengenal spiritualitas Serikat Sabda Allah (SVD).</p>
+    <p class="pdesc">Mengenal spiritualitas Serikat Sabda Allah (SVD) dan pokok-pokok iman Katolik.</p>
+    <div class="chips"><a href="#spiritualitas">Spiritualitas SVD</a><a href="#katekese">Katekese</a></div>
   </div>
 </section>
 
@@ -81,6 +82,25 @@
     </div>
   </div>
 </section>
+<section data-nav="light" class="sec katekese" id="katekese">
+  <div class="wrap narrow">
+    <div class="head">
+      <p class="eyebrow">Katekese</p>
+      <h2>Pokok-pokok Iman Katolik</h2>
+      <p>Tanya jawab singkat tentang iman Katolik. Setiap jawaban menyebut rujukannya pada Kitab Suci, Tradisi, dan Magisterium.</p>
+    </div>
+    <div class="kwhy">
+      <div><h3>Kitab Suci</h3><p>Sabda Allah yang tertulis dengan ilham Roh Kudus: 46 kitab Perjanjian Lama dan 27 kitab Perjanjian Baru.</p></div>
+      <div><h3>Tradisi Suci</h3><p>Ajaran para rasul yang diteruskan dalam Gereja lewat pewartaan, ibadat, para Bapa Gereja, dan konsili.</p></div>
+      <div><h3>Magisterium</h3><p>Wewenang Mengajar Gereja, yaitu Paus dan para uskup, yang menafsirkan Sabda Allah secara otentik.</p></div>
+    </div>
+    <label class="sr" for="kq">Cari pertanyaan</label>
+    <input class="ksearch" id="kq" type="search" placeholder="Cari pertanyaan, misalnya Ekaristi, Maria, api penyucian" autocomplete="off">
+    <div class="kchips" id="kChips"></div>
+    <div id="katList"></div>
+    <p class="knote">Ringkasan ini bukan pengganti <em>Katekismus Gereja Katolik</em> (KGK). Untuk penjelasan lengkap, bacalah KGK atau Kompendiumnya, atau bertanyalah kepada Romo.</p>
+  </div>
+</section>
 </main>
 
 <footer data-nav="dark">
@@ -92,6 +112,7 @@
 
 
 <script src="js/data.js" defer></script>
+<script src="js/katekese.js" defer></script>
 <script src="js/script.js" defer></script>
 <script src="js/motion.js" defer></script>
 </body>

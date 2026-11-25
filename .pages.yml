@@ -93,6 +93,22 @@ content:
           - { name: nama, label: Nama lengkap, type: string }
           - { name: jabatan, label: Jabatan, type: string }
           - { name: foto, label: Foto, type: image }
+          - name: profil
+            label: Profil lengkap (tampil saat foto Romo diklik)
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{judul}"
+            fields:
+              - { name: judul, label: Judul bagian (contoh Identitas & Panggilan Imamat), type: string }
+              - name: baris
+                label: Isi
+                type: object
+                list: true
+                fields:
+                  - { name: label, label: Keterangan (contoh Tempat, tanggal lahir), type: string }
+                  - { name: isi, label: Isi, type: text }
 
   - name: fasilitas
     label: Fasilitas
@@ -180,3 +196,34 @@ content:
       - { name: banner, label: Foto banner utama, type: image }
       - { name: foto_tentang, label: Foto bagian "Tentang paroki", type: image }
       - { name: foto_doa, label: Foto bagian "Titipkan doa", type: image }
+
+  - name: katekese
+    label: Katekese
+    type: file
+    path: data/katekese.json
+    format: json
+    fields:
+      - name: kategori
+        label: Kategori
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nama}"
+        fields:
+          - { name: id, label: Kode singkat (huruf kecil tanpa spasi, contoh maria), type: string }
+          - { name: nama, label: Nama kategori, type: string }
+          - { name: deskripsi, label: Keterangan singkat, type: string }
+          - name: items
+            label: Tanya jawab
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{pertanyaan}"
+            fields:
+              - { name: pertanyaan, label: Pertanyaan, type: string }
+              - { name: jawaban, label: Jawaban, type: text }
+              - { name: kitab_suci, label: Rujukan Kitab Suci, type: string }
+              - { name: tradisi, label: Tradisi, type: text }
+              - { name: magisterium, label: Magisterium / KGK, type: string }
