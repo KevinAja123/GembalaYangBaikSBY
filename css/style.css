@@ -384,7 +384,7 @@ footer .flinks a:hover{text-decoration:underline}
 .pf-sub{display:block;margin-top:6px;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-l)}
 .pf-btn{background:none;border:0;color:#d6defa;font:inherit;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;padding:8px 4px;transition:color .25s var(--ease)}
 .pf-btn:hover,.pf-btn:focus-visible{color:var(--gold-l)}
-.pf-photo{max-width:100%;max-height:100%;height:calc(100vh - 200px);width:auto;object-fit:contain;border:6px double var(--gold-l);padding:5px;background:var(--navy-d);animation:pfImg .5s var(--ease)}
+.pf-photo{display:block;max-width:100%;max-height:calc(100vh - 200px);width:auto;height:auto;border:2px solid var(--gold-l);animation:pfImg .5s var(--ease)}
 @keyframes pfImg{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
 .pf-nav{position:absolute;bottom:28px;left:48px;right:48px;display:flex;justify-content:space-between}
 .pf-panel{background:var(--cream);overflow:auto;padding:84px 40px 48px;border-left:6px solid var(--gold-l)}
@@ -405,7 +405,7 @@ footer .flinks a:hover{text-decoration:underline}
   .pf-top>div{display:none}
   .pf-top{justify-content:flex-end}
   .pf-stage{padding:48px 20px 44px}
-  .pf-photo{height:calc(42vh - 100px)}
+  .pf-photo{max-height:calc(42vh - 100px)}
   .pf-nav{bottom:10px;left:20px;right:20px}
   .pf-panel{padding:28px 22px 40px;border-left:0;border-top:6px solid var(--gold-l)}
   .pf-panel h3{font-size:24px}
