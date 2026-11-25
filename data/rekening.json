@@ -1,0 +1,29 @@
+{
+  "catatan": "Mohon konfirmasi nomor rekening ke sekretariat sebelum mentransfer dalam jumlah besar.",
+  "items": [
+    {
+      "judul": "Persembahan Umat",
+      "keterangan": "a.n. Pers Keuskupan Surabaya Gereja Paroki",
+      "bank": "Mandiri",
+      "nomor": "142-0016-999-210"
+    },
+    {
+      "judul": "Intensi Misa & Dana Kematian",
+      "keterangan": "a.n. BGKP Gembala Yang Baik. Tulis \"INTENSI MISA\" di berita transfer.",
+      "bank": "BCA",
+      "nomor": "258-374-7788"
+    },
+    {
+      "judul": "Sarana Prasarana",
+      "keterangan": "a.n. Pers Keuskupan Surabaya Gereja Asset",
+      "bank": "Mandiri",
+      "nomor": "142-0055-999-410"
+    },
+    {
+      "judul": "Aku Mau Sekolah",
+      "keterangan": "a.n. BGKP Gembala Yang Baik",
+      "bank": "BCA",
+      "nomor": "258-645-7788"
+    }
+  ]
+}

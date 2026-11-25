@@ -42,11 +42,11 @@
   window.addEventListener('resize',adapt);
   adapt();
 
-  // misa berikutnya (WIB), hanya di halaman yang memuatnya
-  var S={0:[[7,30],[9,30],[17,0],[19,15]],1:[[17,30]],2:[[17,30]],3:[[17,30]],4:[[17,30]],5:[[17,30]],6:[[17,30]]};
+  // misa berikutnya (WIB), dihitung dari data/jadwal-misa.json
   var HARI=['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
   function p2(x){return (x<10?'0':'')+x}
   function wibNow(){var t=new Date();return new Date(t.getTime()+t.getTimezoneOffset()*60000+7*3600000)}
+  var S={0:[],1:[],2:[],3:[],4:[],5:[],6:[]};
   function nextMass(w){
     for(var d=0;d<8;d++){
       var day=new Date(w.getFullYear(),w.getMonth(),w.getDate()+d),l=S[day.getDay()];
@@ -56,25 +56,27 @@
   var ntEl=document.getElementById('nt'),cdEl=document.getElementById('cd'),target;
   function tick(){
     var w=wibNow();
-    if(!target||target<=w){target=nextMass(w);
+    if(!target||target<=w){target=nextMass(w);if(!target)return;
       ntEl.textContent=HARI[target.getDay()]+', '+target.getDate()+'/'+(target.getMonth()+1)+', '+p2(target.getHours())+'.'+p2(target.getMinutes())+' WIB'}
     var s=Math.max(0,Math.floor((target-w)/1000)),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60);
     cdEl.textContent=(d?d+' hari ':'')+h+' jam '+m+' menit lagi';
   }
-  if(ntEl&&cdEl){tick();setInterval(tick,30000)}
-
-  // tandai jadwal hari ini
-  var today=wibNow().getDay();
-  document.querySelectorAll('li[data-d]').forEach(function(li){
-    if(li.dataset.d.split(',').indexOf(String(today))>-1)li.classList.add('today');
-  });
+  if(ntEl&&cdEl){
+    loadData('jadwal-misa').then(function(d){
+      d.items.forEach(function(g){(g.jam||[]).forEach(function(j){
+        var t=String(j.waktu).split(/[.:]/);
+        (j.hari||[]).forEach(function(n){var k=HARI.indexOf(n);if(k>-1)S[k].push([+t[0],+t[1]||0])});
+      })});
+      for(var k in S)S[k].sort(function(a,b){return a[0]*60+a[1]-b[0]*60-b[1]});
+      tick();setInterval(tick,30000);
+    }).catch(function(){ntEl.textContent='lihat jadwal'});
+  }
 
   // salin nomor rekening
-  document.querySelectorAll('button[data-copy]').forEach(function(btn){
-    btn.addEventListener('click',function(){
-      var v=btn.dataset.copy,done=function(){btn.textContent='Tersalin';setTimeout(function(){btn.textContent='Salin'},1600)};
-      try{navigator.clipboard.writeText(v).then(done,function(){btn.textContent=v})}catch(e){btn.textContent=v}
-    });
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest&&e.target.closest('button[data-copy]');if(!btn)return;
+    var v=btn.dataset.copy,done=function(){btn.textContent='Tersalin';setTimeout(function(){btn.textContent='Salin'},1600)};
+    try{navigator.clipboard.writeText(v).then(done,function(){btn.textContent=v})}catch(err){btn.textContent=v}
   });
 
   // Google Maps. Ubah EMBED_MAP menjadi true bila website dipasang di domain sendiri

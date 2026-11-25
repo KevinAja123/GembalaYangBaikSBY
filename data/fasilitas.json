@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "nama": "Gereja",
+      "deskripsi": "Tempat perayaan Ekaristi harian dan mingguan.",
+      "foto": "images/gereja.jpg"
+    },
+    {
+      "nama": "Gua Maria",
+      "deskripsi": "Sudut doa yang tenang untuk berdoa pribadi.",
+      "foto": "images/gua.jpg"
+    },
+    {
+      "nama": "Aula",
+      "deskripsi": "Ruang pertemuan dan kegiatan umat.",
+      "foto": "images/aula.jpg"
+    }
+  ]
+}

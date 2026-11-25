@@ -1,0 +1,99 @@
+{
+  "items": [
+    {
+      "label": "Alamat",
+      "isi": [
+        {
+          "teks": "Jl. Jemur Andayani X No.14, Siwalankerto, Surabaya 60237",
+          "link": "",
+          "catatan": ""
+        }
+      ]
+    },
+    {
+      "label": "Telepon",
+      "isi": [
+        {
+          "teks": "(031) 8413301",
+          "link": "tel:+62318413301",
+          "catatan": ""
+        },
+        {
+          "teks": "(031) 8418787",
+          "link": "tel:+62318418787",
+          "catatan": ""
+        }
+      ]
+    },
+    {
+      "label": "WhatsApp",
+      "isi": [
+        {
+          "teks": "0851 5871 3611",
+          "link": "https://wa.me/6285158713611",
+          "catatan": "Sekretariat dan intensi misa"
+        }
+      ]
+    },
+    {
+      "label": "Email",
+      "isi": [
+        {
+          "teks": "gereja.paroki.gyb@gmail.com",
+          "link": "mailto:gereja.paroki.gyb@gmail.com",
+          "catatan": ""
+        },
+        {
+          "teks": "parokigyb@gmail.com",
+          "link": "mailto:parokigyb@gmail.com",
+          "catatan": ""
+        }
+      ]
+    },
+    {
+      "label": "Instagram",
+      "isi": [
+        {
+          "teks": "@pastoran.gyb",
+          "link": "https://www.instagram.com/pastoran.gyb/",
+          "catatan": ""
+        },
+        {
+          "teks": "@komsos.gyb",
+          "link": "https://www.instagram.com/komsos.gyb/",
+          "catatan": "Komsos"
+        },
+        {
+          "teks": "@omkparokigyb",
+          "link": "https://www.instagram.com/omkparokigyb/",
+          "catatan": "OMK"
+        }
+      ]
+    },
+    {
+      "label": "Facebook",
+      "isi": [
+        {
+          "teks": "Paroki GYB Surabaya",
+          "link": "https://www.facebook.com/parokigybsurabaya",
+          "catatan": ""
+        },
+        {
+          "teks": "pastoran.gyb",
+          "link": "https://www.facebook.com/pastorangyb-106804814419395/",
+          "catatan": ""
+        }
+      ]
+    },
+    {
+      "label": "YouTube",
+      "isi": [
+        {
+          "teks": "pastoran.gyb",
+          "link": "https://www.youtube.com/channel/UCRcruy73CIBWmiyLPxw00Jw",
+          "catatan": ""
+        }
+      ]
+    }
+  ]
+}

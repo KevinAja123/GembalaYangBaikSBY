@@ -69,16 +69,7 @@
       <p class="eyebrow">Imam paroki</p>
       <h2>Romo Paroki</h2>
     </div>
-    <div class="romo-grid">
-      <figure class="rm">
-        <img src="images/aji.jpg" alt="RP Stefanus Setyo Kumoro Aji, SVD" loading="lazy">
-        <figcaption><b>RP Stefanus Setyo Kumoro Aji, SVD</b><span>Pastor Kepala Paroki · Ketua DPP Paroki</span></figcaption>
-      </figure>
-      <figure class="rm">
-        <img src="images/yetva.jpg" alt="RP Yetva Softiming Letsoin" loading="lazy">
-        <figcaption><b>RP Yetva Softiming Letsoin</b><span>Romo Paroki</span></figcaption>
-      </figure>
-    </div>
+    <div class="romo-grid" id="romoGrid"></div>
   </div>
 </section>
 
@@ -89,31 +80,7 @@
       <h2>Jadwal Misa</h2>
       <p>Semua jam dalam WIB. Jadwal hari ini diberi tanda.</p>
     </div>
-    <div class="cols">
-      <div class="col">
-        <h3>Misa Harian</h3>
-        <ul>
-          <li data-d="1,2,3,4,5"><span>Senin – Jumat</span><b>17.30</b></li>
-          <li data-d="5"><span>Jumat Pertama</span><b>17.30</b></li>
-        </ul>
-        <p class="n">Intensi misa harian dikirim paling lambat pukul 12.00 WIB.</p>
-      </div>
-      <div class="col">
-        <h3>Misa Sabtu</h3>
-        <ul>
-          <li data-d="6"><span>Sore</span><b>17.30</b></li>
-        </ul>
-      </div>
-      <div class="col">
-        <h3>Misa Minggu</h3>
-        <ul>
-          <li data-d="0"><span>Pagi</span><b>07.30</b></li>
-          <li data-d="0"><span>Pagi</span><b>09.30</b></li>
-          <li data-d="0"><span>Sore</span><b>17.00</b></li>
-          <li data-d="0"><span>Malam</span><b>19.15</b></li>
-        </ul>
-      </div>
-    </div>
+    <div class="cols" id="misaCols"></div>
   </div>
 </section>
 
@@ -124,41 +91,21 @@
       <h2>Tempat berkumpul dan berdoa</h2>
       <p>Untuk pemakaian aula atau ruang paroki, silakan hubungi sekretariat.</p>
     </div>
-    <div class="fgrid">
-      <article>
-        <img src="images/gereja.jpg" alt="Tampak depan Gereja Gembala Yang Baik" loading="lazy">
-        <h3>Gereja</h3>
-        <p>Tempat perayaan Ekaristi harian dan mingguan.</p>
-      </article>
-      <article>
-        <img src="images/gua.jpg" alt="Gua Maria" loading="lazy">
-        <h3>Gua Maria</h3>
-        <p>Sudut doa yang tenang untuk berdoa pribadi.</p>
-      </article>
-      <article>
-        <img src="images/aula.jpg" alt="Aula paroki dengan kursi tertata dan layar besar" loading="lazy">
-        <h3>Aula</h3>
-        <p>Ruang pertemuan dan kegiatan umat.</p>
-      </article>
-    </div>
+    <div class="fgrid" id="fasGrid"></div>
     <div class="adorasi" id="adorasi">
-      <img class="adimg" src="images/adorasi.jpg" alt="Ruang Adorasi dengan Sakramen Mahakudus, lilin, dan bunga" loading="lazy">
+      <img class="adimg" id="adImg" src="images/adorasi.jpg" alt="Ruang Adorasi dengan Sakramen Mahakudus, lilin, dan bunga" loading="lazy">
       <div>
         <p class="eyebrow">Ruang Adorasi</p>
         <h3>Adorasi Sakramen Mahakudus</h3>
-        <p class="verse">“Marilah kepada-Ku, semua yang letih lesu dan berbeban berat, Aku akan memberi kelegaan kepadamu.” <cite>Mat 11:28</cite></p>
+        <p class="verse" id="adVerse"></p>
         <h4>Tata tertib</h4>
-        <ol class="rules">
-          <li>Mengisi daftar kunjungan di pos Satpam GYB.</li>
-          <li>Berpakaian sopan, rapi, dan layak.</li>
-          <li>Menjaga keheningan selama berada di dalam Ruang Adorasi.</li>
-        </ol>
+        <ol class="rules" id="adRules"></ol>
       </div>
       <dl class="adinfo">
         <dt>Jam buka</dt>
-        <dd><b>06.00 – 24.00 WIB</b><br>Tetap dibuka pada jam misa dan ibadat.</dd>
+        <dd id="adJam"></dd>
         <dt>Lokasi</dt>
-        <dd><b>Lantai 2</b><br>Depan lift atau sebelah Pastoran.</dd>
+        <dd id="adLokasi"></dd>
       </dl>
     </div>
   </div>
@@ -190,6 +137,8 @@
 </footer>
 
 
+<script src="js/data.js" defer></script>
+<script src="js/render.js" defer></script>
 <script src="js/script.js" defer></script>
 </body>
 </html>

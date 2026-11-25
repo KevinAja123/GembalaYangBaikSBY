@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "judul": "Misa Harian",
+      "catatan": "Intensi misa harian dikirim paling lambat pukul 12.00 WIB.",
+      "jam": [
+        {
+          "label": "Senin – Jumat",
+          "waktu": "17.30",
+          "hari": [
+            "Senin",
+            "Selasa",
+            "Rabu",
+            "Kamis",
+            "Jumat"
+          ]
+        },
+        {
+          "label": "Jumat Pertama",
+          "waktu": "17.30",
+          "hari": [
+            "Jumat"
+          ]
+        }
+      ]
+    },
+    {
+      "judul": "Misa Sabtu",
+      "catatan": "",
+      "jam": [
+        {
+          "label": "Sore",
+          "waktu": "17.30",
+          "hari": [
+            "Sabtu"
+          ]
+        }
+      ]
+    },
+    {
+      "judul": "Misa Minggu",
+      "catatan": "",
+      "jam": [
+        {
+          "label": "Pagi",
+          "waktu": "07.30",
+          "hari": [
+            "Minggu"
+          ]
+        },
+        {
+          "label": "Pagi",
+          "waktu": "09.30",
+          "hari": [
+            "Minggu"
+          ]
+        },
+        {
+          "label": "Sore",
+          "waktu": "17.00",
+          "hari": [
+            "Minggu"
+          ]
+        },
+        {
+          "label": "Malam",
+          "waktu": "19.15",
+          "hari": [
+            "Minggu"
+          ]
+        }
+      ]
+    }
+  ]
+}

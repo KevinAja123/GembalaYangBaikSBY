@@ -1,0 +1,182 @@
+# Konfigurasi panel admin (Pages CMS: https://app.pagescms.org)
+media:
+  input: images
+  output: /images
+
+content:
+  - name: jadwal-misa
+    label: Jadwal Misa
+    type: file
+    path: data/jadwal-misa.json
+    format: json
+    fields:
+      - name: items
+        label: Kelompok misa
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{judul}"
+        fields:
+          - { name: judul, label: Judul (contoh Misa Minggu), type: string }
+          - { name: catatan, label: Catatan di bawah jadwal (boleh kosong), type: string }
+          - name: jam
+            label: Jam misa
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label} {waktu}"
+            fields:
+              - { name: label, label: Keterangan (contoh Pagi), type: string }
+              - { name: waktu, label: Jam (contoh 07.30), type: string }
+              - name: hari
+                label: Berlangsung pada hari
+                type: select
+                options:
+                  multiple: true
+                  values: [Minggu, Senin, Selasa, Rabu, Kamis, Jumat, Sabtu]
+
+  - name: agenda
+    label: Agenda Kegiatan
+    type: file
+    path: data/agenda.json
+    format: json
+    fields:
+      - name: items
+        label: Kegiatan
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{date} {title}"
+        fields:
+          - { name: title, label: Nama kegiatan, type: string }
+          - { name: date, label: Tanggal, type: date, options: { format: yyyy-MM-dd } }
+          - { name: time, label: Jam (contoh 19.00 WIB), type: string }
+          - { name: place, label: Tempat (boleh kosong), type: string }
+          - { name: desc, label: Keterangan (boleh kosong), type: text }
+
+  - name: berita
+    label: Berita
+    type: file
+    path: data/berita.json
+    format: json
+    fields:
+      - name: items
+        label: Berita
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{date} {title}"
+        fields:
+          - { name: title, label: Judul, type: string }
+          - { name: date, label: Tanggal, type: date, options: { format: yyyy-MM-dd } }
+          - { name: text, label: Ringkasan, type: text }
+          - { name: link, label: Link selengkapnya (boleh kosong), type: string }
+
+  - name: romo
+    label: Romo Paroki
+    type: file
+    path: data/romo.json
+    format: json
+    fields:
+      - name: items
+        label: Romo
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nama}"
+        fields:
+          - { name: nama, label: Nama lengkap, type: string }
+          - { name: jabatan, label: Jabatan, type: string }
+          - { name: foto, label: Foto, type: image }
+
+  - name: fasilitas
+    label: Fasilitas
+    type: file
+    path: data/fasilitas.json
+    format: json
+    fields:
+      - name: items
+        label: Fasilitas
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nama}"
+        fields:
+          - { name: nama, label: Nama, type: string }
+          - { name: deskripsi, label: Keterangan singkat, type: string }
+          - { name: foto, label: Foto, type: image }
+
+  - name: adorasi
+    label: Ruang Adorasi
+    type: file
+    path: data/adorasi.json
+    format: json
+    fields:
+      - { name: foto, label: Foto, type: image }
+      - { name: ayat, label: Ayat (tanpa tanda kutip), type: text }
+      - { name: rujukan, label: Rujukan ayat (contoh Mat 11:28), type: string }
+      - { name: tata_tertib, label: Tata tertib, type: string, list: true }
+      - { name: jam, label: Jam buka, type: string }
+      - { name: jam_catatan, label: Catatan jam buka, type: string }
+      - { name: lokasi, label: Lokasi, type: string }
+      - { name: lokasi_catatan, label: Petunjuk lokasi, type: string }
+
+  - name: rekening
+    label: Rekening Donasi
+    type: file
+    path: data/rekening.json
+    format: json
+    fields:
+      - name: items
+        label: Rekening
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{judul}"
+        fields:
+          - { name: judul, label: Tujuan (contoh Persembahan Umat), type: string }
+          - { name: keterangan, label: Atas nama / keterangan, type: string }
+          - { name: bank, label: Bank, type: string }
+          - { name: nomor, label: Nomor rekening, type: string }
+      - { name: catatan, label: Catatan di bawah daftar, type: string }
+
+  - name: kontak
+    label: Kontak
+    type: file
+    path: data/kontak.json
+    format: json
+    fields:
+      - name: items
+        label: Kelompok kontak
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        fields:
+          - { name: label, label: Judul (contoh Telepon), type: string }
+          - name: isi
+            label: Isi
+            type: object
+            list: true
+            fields:
+              - { name: teks, label: Teks yang tampil, type: string }
+              - { name: link, label: "Link (boleh kosong; tel:, mailto:, atau https://)", type: string }
+              - { name: catatan, label: Catatan kecil (boleh kosong), type: string }
+
+  - name: beranda
+    label: Foto Beranda
+    type: file
+    path: data/beranda.json
+    format: json
+    fields:
+      - { name: banner, label: Foto banner utama, type: image }
+      - { name: foto_tentang, label: Foto bagian "Tentang paroki", type: image }
+      - { name: foto_doa, label: Foto bagian "Titipkan doa", type: image }

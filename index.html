@@ -55,7 +55,7 @@
 
 <main>
 <section class="hero" data-nav="dark">
-  <img class="banner" src="images/gereja.jpg" alt="Tampak depan Gereja Gembala Yang Baik dengan tulisan nama gereja di dinding batu">
+  <img class="banner" id="bnr" src="images/gereja.jpg" alt="Tampak depan Gereja Gembala Yang Baik dengan tulisan nama gereja di dinding batu">
   <div class="wrap">
     <h1>Gereja Katolik Gembala Yang Baik Surabaya</h1>
   </div>
@@ -72,7 +72,7 @@
 <section data-nav="light" class="sec tentang" id="tentang">
   <div class="wrap">
     <div class="pics">
-      <img src="images/hero.jpg" alt="Panti imam dan salib di Gereja Gembala Yang Baik" loading="lazy">
+      <img id="fotoTentang" src="images/hero.jpg" alt="Panti imam dan salib di Gereja Gembala Yang Baik" loading="lazy">
     </div>
     <div>
       <p class="eyebrow">Tentang paroki</p>
@@ -91,37 +91,13 @@
       <h2>Jadwal Misa</h2>
       <p>Semua jam dalam WIB. Jadwal hari ini diberi tanda.</p>
     </div>
-    <div class="cols">
-      <div class="col">
-        <h3>Misa Harian</h3>
-        <ul>
-          <li data-d="1,2,3,4,5"><span>Senin – Jumat</span><b>17.30</b></li>
-          <li data-d="5"><span>Jumat Pertama</span><b>17.30</b></li>
-        </ul>
-        <p class="n">Intensi misa harian dikirim paling lambat pukul 12.00 WIB.</p>
-      </div>
-      <div class="col">
-        <h3>Misa Sabtu</h3>
-        <ul>
-          <li data-d="6"><span>Sore</span><b>17.30</b></li>
-        </ul>
-      </div>
-      <div class="col">
-        <h3>Misa Minggu</h3>
-        <ul>
-          <li data-d="0"><span>Pagi</span><b>07.30</b></li>
-          <li data-d="0"><span>Pagi</span><b>09.30</b></li>
-          <li data-d="0"><span>Sore</span><b>17.00</b></li>
-          <li data-d="0"><span>Malam</span><b>19.15</b></li>
-        </ul>
-      </div>
-    </div>
+    <div class="cols" id="misaCols"></div>
   </div>
 </section>
 
 <section data-nav="light" class="sec doa">
   <div class="wrap">
-    <img src="images/gua.jpg" alt="Gua Maria di lingkungan gereja" loading="lazy">
+    <img id="fotoDoa" src="images/gua.jpg" alt="Gua Maria di lingkungan gereja" loading="lazy">
     <div>
       <p class="eyebrow">Intensi &amp; ujud doa</p>
       <h2>Titipkan doa Anda</h2>
@@ -173,29 +149,8 @@
       <h2>Donasi</h2>
       <p>Pilih rekening sesuai tujuan persembahan Anda.</p>
     </div>
-    <div class="acc">
-      <div class="r">
-        <div><h3>Persembahan Umat</h3><p>a.n. Pers Keuskupan Surabaya Gereja Paroki</p></div>
-        <div class="no"><small>Mandiri</small>142-0016-999-210</div>
-        <button data-copy="1420016999210">Salin</button>
-      </div>
-      <div class="r">
-        <div><h3>Intensi Misa &amp; Dana Kematian</h3><p>a.n. BGKP Gembala Yang Baik. Tulis "INTENSI MISA" di berita transfer.</p></div>
-        <div class="no"><small>BCA</small>258-374-7788</div>
-        <button data-copy="2583747788">Salin</button>
-      </div>
-      <div class="r">
-        <div><h3>Sarana Prasarana</h3><p>a.n. Pers Keuskupan Surabaya Gereja Asset</p></div>
-        <div class="no"><small>Mandiri</small>142-0055-999-410</div>
-        <button data-copy="1420055999410">Salin</button>
-      </div>
-      <div class="r">
-        <div><h3>Aku Mau Sekolah</h3><p>a.n. BGKP Gembala Yang Baik</p></div>
-        <div class="no"><small>BCA</small>258-645-7788</div>
-        <button data-copy="2586457788">Salin</button>
-      </div>
-    </div>
-    <p class="note">Mohon konfirmasi nomor rekening ke sekretariat sebelum mentransfer dalam jumlah besar.</p>
+    <div class="acc" id="accList"></div>
+    <p class="note" id="accNote"></p>
   </div>
 </section>
 </main>
@@ -208,6 +163,8 @@
 </footer>
 
 
+<script src="js/data.js" defer></script>
+<script src="js/render.js" defer></script>
 <script src="js/script.js" defer></script>
 </body>
 </html>

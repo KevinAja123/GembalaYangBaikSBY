@@ -1,4 +1,5 @@
 (function(){
+  function run(){
   var BLN=['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
   var BLN_PANJANG=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
   function p2(x){return (x<10?'0':'')+x}
@@ -65,4 +66,6 @@
       bl.appendChild(c);
     });
   }
+  }
+  Promise.all([loadData("agenda"),loadData("berita")]).then(function(r){window.AGENDA=r[0].items||[];window.BERITA=r[1].items||[];run()});
 })();
