@@ -387,9 +387,9 @@ footer .flinks a:hover{text-decoration:underline}
 .pf-x:hover,.pf-x:focus-visible{color:#2b2622}
 .pf-panel .eyebrow{display:none}
 .pf-panel h3{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:30px;line-height:1.2;margin:0;padding-right:34px;color:#2b2622;letter-spacing:0}
-.pf-role{margin:8px 0 0;color:#6b6157;font-size:16px;font-style:italic;font-family:Georgia,"Times New Roman",serif}
+.pf-role{margin:8px 0 0;color:#6b6157;font-size:15px;font-weight:600;font-family:"Plus Jakarta Sans",system-ui,sans-serif}
 .pfsec{margin-top:28px}
-.pfsec h4{font-family:Georgia,"Times New Roman",serif;font-size:19px;font-weight:700;color:#7a2e2a;margin:0 0 6px;padding-bottom:6px;border-bottom:1px solid #d9d0bf;letter-spacing:0;text-transform:none}
+.pfsec h4{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-size:17px;font-weight:800;color:#7a2e2a;margin:0 0 6px;padding-bottom:6px;border-bottom:1px solid #d9d0bf;letter-spacing:-.02em;text-transform:none}
 .pfsec dl{margin:0}
 .pfsec dt{font-weight:600;font-size:14px;color:#8a7d6e;margin-top:14px}
 .pfsec dd{margin:2px 0 0;font-size:16px;line-height:1.65;color:#2b2622}
