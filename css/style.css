@@ -235,11 +235,14 @@ nav .sub a:hover,nav .sub a:focus-visible{background:rgba(255,255,255,.1);color:
 .sgrid p{color:var(--grey);font-size:16px;margin-bottom:14px}
 .sakramen{background:#fff}
 @media (max-width:1080px){
-  nav{background:var(--navy)}
-  nav li.has-sub>a.l::after{display:none}
-  nav .sub{position:static;display:block;background:none;border:0;box-shadow:none;padding:0 0 6px 16px;min-width:0}
-  nav .sub a{padding:11px 0;font-size:14px;color:#d6defa;border-bottom:1px solid rgba(255,255,255,.1)}
-  nav li.has-sub>a.l{border-bottom:0;padding-bottom:6px}
+  nav{background:var(--navy);max-height:calc(100vh - 76px);overflow-y:auto}
+  nav li.has-sub>a.l{display:flex;justify-content:space-between;align-items:center}
+  nav li.has-sub>a.l::after{display:inline-block;margin-left:12px;padding:3.5px;transition:transform .3s var(--ease)}
+  nav li.has-sub.open>a.l::after{transform:rotate(-135deg)}
+  nav li.has-sub:hover>.sub,nav li.has-sub:focus-within>.sub{display:none}
+  nav .sub{position:static;display:none;background:rgba(255,255,255,.06);border:0;box-shadow:none;padding:0;min-width:0;opacity:1;visibility:visible}
+  nav li.has-sub.open>.sub,nav li.has-sub.open:hover>.sub,nav li.has-sub.open:focus-within>.sub{display:block;animation:fadeUp .25s var(--ease)}
+  nav .sub a{padding:13px 16px;font-size:15px;color:#d6defa;white-space:normal}
 }
 @media (max-width:900px){.sgrid{grid-template-columns:1fr 1fr;gap:32px 24px}}
 @media (max-width:560px){.sgrid{grid-template-columns:1fr}}

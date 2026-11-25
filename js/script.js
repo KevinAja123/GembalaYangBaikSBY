@@ -10,6 +10,14 @@
     b.setAttribute('aria-expanded',o);
   });
   n.addEventListener('click',function(e){
+    var p=e.target.closest('li.has-sub>a.l');
+    if(p&&window.matchMedia('(max-width:1080px)').matches){
+      e.preventDefault();
+      var li=p.parentNode,was=li.classList.contains('open');
+      [].forEach.call(n.querySelectorAll('li.has-sub.open'),function(x){x.classList.remove('open')});
+      if(!was)li.classList.add('open');
+      return;
+    }
     if(e.target.closest('a')){n.classList.remove('open');hd.classList.remove('open');b.setAttribute('aria-expanded',false)}
   });
 
