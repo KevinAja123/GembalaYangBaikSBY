@@ -374,7 +374,7 @@ footer .flinks a:hover{text-decoration:underline}
 .rm{cursor:pointer}
 .rm .more{display:inline-block;margin-top:12px;font-style:normal;font-size:13.5px;font-weight:700;color:var(--blue);border-bottom:2px solid var(--gold-l)}
 .rm:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
-.profil{position:fixed;inset:0;margin:auto;padding:0;border:0;width:min(1040px,calc(100vw - 32px));max-width:none;height:min(700px,calc(100vh - 32px));max-height:none;background:#faf7f0;color:#2b2622;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.35)}
+.profil{position:fixed;inset:0;margin:auto;padding:0;border:0;width:min(1040px,calc(100vw - 32px));max-width:none;height:min(700px,calc(100vh - 32px));max-height:none;background:#fff;color:#2b2622;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.35)}
 .profil::backdrop{background:rgba(25,20,16,.62)}
 .profil[open]{display:grid;grid-template-columns:minmax(0,45%) minmax(0,1fr);animation:pfIn .35s var(--ease)}
 .profil[open]::backdrop{animation:pfFade .35s ease}
@@ -382,7 +382,7 @@ footer .flinks a:hover{text-decoration:underline}
 @keyframes pfFade{from{opacity:0}to{opacity:1}}
 .pf-stage{position:relative;background:#e9e3d6;min-height:0}
 .pf-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block}
-.pf-panel{position:relative;overflow:auto;padding:44px 44px 40px;background:#faf7f0}
+.pf-panel{position:relative;overflow:auto;padding:44px 44px 40px;background:#fff}
 .pf-x{position:absolute;top:10px;right:14px;width:40px;height:40px;background:none;border:0;font-size:28px;line-height:1;color:#7a6f64;cursor:pointer;transition:color .25s var(--ease)}
 .pf-x:hover,.pf-x:focus-visible{color:#2b2622}
 .pf-panel .eyebrow{display:none}
