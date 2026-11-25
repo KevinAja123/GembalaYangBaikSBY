@@ -134,21 +134,12 @@
   </div>
 </section>
 <dialog id="profil" class="profil" aria-labelledby="pfName">
-  <div class="pf-stage">
-    <div class="pf-top">
-      <div><span class="pf-title" id="pfTitle"></span><span class="pf-sub" id="pfRole"></span></div>
-      <button class="pf-btn" id="pfClose" type="button">Tutup</button>
-    </div>
-    <img class="pf-photo" id="pfImg" alt="">
-    <div class="pf-nav">
-      <button class="pf-btn" id="pfPrev" type="button">&lsaquo; Sebelumnya</button>
-      <button class="pf-btn" id="pfNext" type="button">Berikutnya &rsaquo;</button>
-    </div>
-  </div>
+  <div class="pf-stage"><img class="pf-photo" id="pfImg" alt=""></div>
   <div class="pf-panel">
+    <button class="pf-x" id="pfClose" type="button" aria-label="Tutup">&times;</button>
     <p class="eyebrow">Profil Romo</p>
     <h3 id="pfName"></h3>
-    <hr>
+    <p class="pf-role" id="pfRole"></p>
     <div id="pfBody"></div>
   </div>
 </dialog>

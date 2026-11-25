@@ -38,45 +38,38 @@
 
   // romo (klik untuk melihat profil)
   use('romo',function(d){
-    var box=$('romoGrid');if(!box)return;box.textContent='';ROMO=d.items;
-    d.items.forEach(function(r,idx){
+    var box=$('romoGrid');if(!box)return;box.textContent='';
+    d.items.forEach(function(r){
       var f=el('figure','rm');f.appendChild(img(r.foto,r.nama));
       var c=el('figcaption');c.appendChild(el('b',null,r.nama));c.appendChild(el('span',null,r.jabatan));
       if(r.profil&&r.profil.length){
         c.appendChild(el('em','more','Lihat profil'));
         f.tabIndex=0;f.setAttribute('role','button');f.setAttribute('aria-label','Lihat profil '+r.nama);
-        f.addEventListener('click',function(){openProfil(idx)});
-        f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();openProfil(idx)}});
+        f.addEventListener('click',function(){openProfil(r)});
+        f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();openProfil(r)}});
       }
       f.appendChild(c);box.appendChild(f);
     });
   });
-  var ROMO=[],cur=0;
-  function openProfil(i){
-    var dlg=$('profil');if(!dlg||!ROMO.length)return;
-    cur=(i+ROMO.length)%ROMO.length;var r=ROMO[cur];
+  function openProfil(r){
+    var dlg=$('profil');if(!dlg)return;
     var p=$('pfBody');p.textContent='';
     var im=$('pfImg');im.src=imgSrc(r.foto);im.alt=r.nama;
-    im.style.animation='none';im.offsetWidth;im.style.animation='';
-    $('pfTitle').textContent=r.nama;$('pfRole').textContent=r.jabatan;$('pfName').textContent=r.nama;
+    $('pfName').textContent=r.nama;$('pfRole').textContent=r.jabatan;
     (r.profil||[]).forEach(function(s){
       var sec=el('section','pfsec');sec.appendChild(el('h4',null,s.judul));
       var dl=el('dl');
       (s.baris||[]).forEach(function(b){dl.appendChild(el('dt',null,b.label));dl.appendChild(el('dd',null,b.isi))});
       sec.appendChild(dl);p.appendChild(sec);
     });
-    if(!dlg.open){dlg.showModal();document.body.style.overflow='hidden'}
+    dlg.showModal();document.body.style.overflow='hidden';
     dlg.querySelector('.pf-panel').scrollTop=0;
   }
   (function(){
     var dlg=$('profil');if(!dlg)return;
     dlg.addEventListener('close',function(){document.body.style.overflow=''});
     $('pfClose').addEventListener('click',function(){dlg.close()});
-    $('pfPrev').addEventListener('click',function(){openProfil(cur-1)});
-    $('pfNext').addEventListener('click',function(){openProfil(cur+1)});
-    dlg.addEventListener('keydown',function(e){
-      if(e.key==='ArrowRight'){openProfil(cur+1)}else if(e.key==='ArrowLeft'){openProfil(cur-1)}
-    });
+    dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close()});
   })();
 
   // fasilitas
