@@ -331,3 +331,41 @@ footer .flinks a:hover{text-decoration:underline}
 .adimg{width:100%;aspect-ratio:3/4;object-fit:cover;border:1px solid rgba(254,231,23,.5)}
 @media (max-width:900px){.adorasi .adimg{max-width:320px}}
 .grid3:has(> article:nth-child(2):last-child){grid-template-columns:repeat(2,1fr)}
+
+/* ===== Gerak halus ===== */
+:root{--ease:cubic-bezier(.22,.61,.36,1)}
+/* muncul saat digulir (kelas .rv ditambahkan oleh js/motion.js) */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease);transition-delay:var(--d,0ms);will-change:opacity,transform}
+.rv.in{opacity:1;transform:none}
+/* pembuka halaman */
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes bannerIn{from{transform:scale(1.07)}to{transform:scale(1)}}
+.hero .banner{animation:bannerIn 2.6s var(--ease) both}
+.hero h1{animation:fadeUp .9s var(--ease) .15s both}
+.pagehero .crumb{animation:fadeUp .7s var(--ease) both}
+.pagehero h1{animation:fadeUp .8s var(--ease) .08s both}
+.pagehero .pdesc,.pagehero .chips{animation:fadeUp .8s var(--ease) .18s both}
+/* sentuhan kursor */
+.btn,.link,.fab,nav a,.chips a{transition:background-color .25s var(--ease),color .25s var(--ease),border-color .25s var(--ease),transform .25s var(--ease)}
+.btn:hover{transform:translateY(-2px)}
+.rm,.fgrid article,.ev,.news,.grid3 article{transition:opacity .7s var(--ease),transform .45s var(--ease),box-shadow .35s var(--ease);transition-delay:var(--d,0ms)}
+.rm:hover,.ev:hover,.news:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(20,48,122,.12)}
+.rm{overflow:hidden}
+.rm img,.fgrid img,.tentang .pics img,.doa img{transition:transform .8s var(--ease)}
+.rm:hover img{transform:scale(1.04)}
+.fgrid article{overflow:hidden}
+.fgrid article:hover img{transform:scale(1.03)}
+.acc .r{transition:background-color .25s var(--ease)}
+.acc .r:hover{background:rgba(27,79,216,.05)}
+.col li{transition:background-color .25s var(--ease)}
+/* menu turun */
+@media (min-width:1081px){
+  nav .sub{display:block;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .22s var(--ease),transform .22s var(--ease),visibility 0s linear .22s}
+  nav li.has-sub:hover>.sub,nav li.has-sub:focus-within>.sub{opacity:1;visibility:visible;transform:none;transition-delay:0s}
+}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  .hero .banner,.hero h1,.pagehero .crumb,.pagehero h1,.pagehero .pdesc,.pagehero .chips{animation:none}
+  .rm,.fgrid article,.ev,.news,.grid3 article,.rm img,.fgrid img,.btn{transition:none}
+  nav .sub{transition:none}
+}
